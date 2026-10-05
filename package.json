@@ -1,0 +1,34 @@
+{
+  "name": "learn-croatian",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "words": "node scripts/build-words.mjs",
+    "icons": "node scripts/build-icons.mjs",
+    "dev": "vite",
+    "dev:api": "wrangler dev --port 8787",
+    "build": "npm run words && tsc -b && vite build",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "db:migrate:local": "wrangler d1 migrations apply learn-croatian-db --local",
+    "db:migrate": "wrangler d1 migrations apply learn-croatian-db --remote",
+    "deploy": "npm run build && wrangler d1 migrations apply learn-croatian-db --remote && wrangler deploy"
+  },
+  "dependencies": {
+    "hono": "^4.13.13",
+    "idb": "^8.0.3",
+    "preact": "^11.0.0",
+    "ts-fsrs": "^5.4.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261005.1",
+    "@preact/preset-vite": "^2.10.6",
+    "fake-indexeddb": "^6.2.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.0.3",
+    "wrangler": "^4.147.0"
+  }
+}

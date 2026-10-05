@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "learn-croatian",
+  "main": "worker/index.ts",
+  "compatibility_date": "2025-10-01",
+  // The built PWA is served as static assets; only /api/* runs the Worker.
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "learn-croatian-db",
+      // Paste the id printed by `npx wrangler d1 create learn-croatian-db`
+      // (or shown in the Cloudflare dashboard under Storage & Databases → D1).
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ]
+  // Secret (not stored here): SYNC_TOKEN — set with `npx wrangler secret put SYNC_TOKEN`.
+}

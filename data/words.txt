@@ -1,0 +1,1023 @@
+# Croatian core vocabulary, ordered roughly by frequency (most frequent first).
+# Ranking was informed by the OpenSubtitles hr_50k frequency list (forms grouped into lemmas).
+# Format: croatian | english | pos | note | example (hr) | example (en)
+# pos: n-m n-f n-n n-pl (noun + gender / plural-only), v-ipf v-pf v-bi (verb aspect),
+#      adj adv pron prep conj num part intj
+# Alternatives are separated with " / " (e.g. gendered forms); any of them is accepted when typing.
+biti | to be | v-ipf | present: sam, si, je, smo, ste, su | Ja sam umoran. | I am tired.
+i | and | conj | | Ti i ja. | You and me.
+da | yes; that (conj.) | part | | Da, znam da je ovdje. | Yes, I know that he's here.
+ne | no; not | part | | Ne, ne znam. | No, I don't know.
+se | oneself (reflexive) | pron | used with reflexive verbs | Kako se zoveš? | What's your name?
+u | in; into | prep | + loc. (in) / + acc. (into) | Živim u Zagrebu. | I live in Zagreb.
+to | that; it | pron | | To je dobro. | That's good.
+što | what | pron | | Što radiš? | What are you doing?
+na | on; at; onto | prep | + loc. / + acc. | Knjiga je na stolu. | The book is on the table.
+ti | you (informal) | pron | | Ti si moj prijatelj. | You are my friend.
+za | for | prep | + acc. | Ovo je za tebe. | This is for you.
+mi | we | pron | also "mi" = to me | Mi smo ovdje. | We are here.
+ja | I | pron | | Ja sam Ivan. | I am Ivan.
+li | (question particle) | part | | Znaš li gdje je? | Do you know where it is?
+ali | but | conj | | Želim, ali ne mogu. | I want to, but I can't.
+on | he | pron | | On je moj brat. | He is my brother.
+ona | she | pron | | Ona radi u bolnici. | She works in a hospital.
+oni | they | pron | one (f), ona (n) | Oni dolaze sutra. | They're coming tomorrow.
+vi | you (plural / formal) | pron | | Odakle ste vi? | Where are you from?
+samo | only; just | adv | | Samo malo. | Just a little.
+s / sa | with | prep | + instr.; "sa" before s, z, š, ž | Idem s tobom. | I'm going with you.
+od | from; of | prep | + gen. | Pismo je od mame. | The letter is from mum.
+a | and; whereas | conj | contrastive "and" | Ja sam dobro, a ti? | I'm fine, and you?
+ovaj / ova / ovo | this | pron | | Ovo je moj stan. | This is my flat.
+kako | how | adv | | Kako si? | How are you?
+htjeti | to want; will (future) | v-ipf | present: hoću / ću | Što hoćeš? | What do you want?
+o | about | prep | + loc. | Pričamo o tebi. | We're talking about you.
+dobro | well; fine; OK | adv | | Dobro sam, hvala. | I'm fine, thanks.
+ako | if | conj | | Ako želiš, idemo. | If you want, let's go.
+sav / sva / sve | all; everything | pron | | Sve je u redu. | Everything is fine.
+kao | like; as | conj | | Izgledaš kao tata. | You look like dad.
+tako | so; like that | adv | | Nemoj tako. | Don't be like that.
+znati | to know | v-ipf | | Ne znam. | I don't know.
+ovdje | here | adv | | Čekam te ovdje. | I'm waiting for you here.
+moći | can; to be able | v-ipf | present: mogu, možeš, može | Mogu li ući? | May I come in?
+pa | so; well; then | conj | | Pa, što sad? | So, what now?
+zašto | why | adv | | Zašto plačeš? | Why are you crying?
+još | still; yet; more | adv | | Još nije gotovo. | It's not finished yet.
+red | order; row; queue | n-m | "u redu" = OK | U redu je. | It's okay.
+nešto | something | pron | | Želim ti nešto reći. | I want to tell you something.
+kad / kada | when | adv | | Kad dolaziš? | When are you coming?
+koji / koja / koje | which; who (relative) | pron | | Koji autobus ide u centar? | Which bus goes to the centre?
+misliti | to think | v-ipf | | Mislim da imaš pravo. | I think you're right.
+hvala | thank you | intj | | Hvala lijepa! | Thank you very much!
+iz | from; out of | prep | + gen. | Ja sam iz Splita. | I'm from Split.
+ili | or | conj | | Čaj ili kava? | Tea or coffee?
+možda | maybe; perhaps | adv | | Možda sutra. | Maybe tomorrow.
+gdje | where | adv | | Gdje je kupaonica? | Where is the bathroom?
+imati | to have | v-ipf | | Imam dva brata. | I have two brothers.
+više | more | adv | | Trebam više vremena. | I need more time.
+reći | to say; to tell | v-pf | ipf. govoriti / kazati (kažem) | Reci mi istinu. | Tell me the truth.
+sada / sad | now | adv | | Moram ići sada. | I have to go now.
+moj / moja / moje | my | pron | | Ovo je moja kuća. | This is my house.
+onda | then | adv | | Onda idemo. | Then let's go.
+tko | who | pron | | Tko je to? | Who is that?
+do | to; until; next to | prep | + gen. | Radim do pet. | I work until five.
+nemati | to not have | v-ipf | "nema" = there isn't | Nema problema. | No problem.
+ništa | nothing | pron | | Ništa ne razumijem. | I don't understand anything.
+željeti | to wish; to want | v-ipf | | Želim kavu. | I'd like a coffee.
+malo | a little; a bit | adv | | Govorim malo hrvatski. | I speak a little Croatian.
+molim | please; you're welcome | intj | also "Pardon?" | Kavu, molim. | A coffee, please.
+jer | because | conj | | Ostajem jer pada kiša. | I'm staying because it's raining.
+prije | before; ago | adv | also prep. + gen. | Prije tri dana. | Three days ago.
+tu | here; there | adv | | Tu sam! | I'm here!
+zbog | because of | prep | + gen. | Zbog kiše ostajemo kod kuće. | Because of the rain we're staying home.
+ni | nor; not even | conj | | Ni ja ne znam. | I don't know either.
+tamo | there | adv | | Pošta je tamo. | The post office is over there.
+čovjek | person; man | n-m | pl. ljudi | On je dobar čovjek. | He's a good man.
+morati | must; to have to | v-ipf | | Moram raditi. | I have to work.
+uvijek | always | adv | | Uvijek kasniš. | You're always late.
+trebati | to need; should | v-ipf | | Trebam pomoć. | I need help.
+stvarno | really | adv | | Stvarno? | Really?
+hajde / ajde | come on; let's | intj | "hajdemo" = let's go | Hajde, idemo! | Come on, let's go!
+po | along; per; (to fetch) | prep | + loc. / + acc. | Idem po kruh. | I'm going to get bread.
+jedan / jedna / jedno | one | num | | Jedna kava, molim. | One coffee, please.
+koliko | how much; how many | adv | | Koliko košta? | How much does it cost?
+već | already | adv | | Već je kasno. | It's already late.
+ići | to go | v-ipf | present: idem, ideš; pf. otići / doći | Idem kući. | I'm going home.
+zato | that's why; therefore | adv | "zato što" = because | Zato sam došao. | That's why I came.
+baš | just; exactly; really | part | | Baš lijepo! | Really nice!
+nego | than; but rather | conj | | Bolje nego jučer. | Better than yesterday.
+bez | without | prep | + gen. | Kava bez šećera. | Coffee without sugar.
+stvar | thing | n-f | | Gdje su moje stvari? | Where are my things?
+vrijeme | time; weather | n-n | gen. vremena | Nemam vremena. | I don't have time.
+dok | while; until | conj | | Čekaj dok ne dođem. | Wait until I come.
+taj / ta / to | that | pron | | Taj čovjek je moj susjed. | That man is my neighbour.
+žao | sorry | adv | "žao mi je" = I'm sorry | Žao mi je. | I'm sorry.
+naravno | of course | adv | | Naravno da možeš. | Of course you can.
+posao | job; work | n-m | gen. posla | Idem na posao. | I'm going to work.
+značiti | to mean | v-ipf | | Što to znači? | What does that mean?
+dan | day | n-m | | Dobar dan! | Good day! / Hello!
+nikad / nikada | never | adv | | Nikad ne pušim. | I never smoke.
+tvoj / tvoja / tvoje | your (informal) | pron | | Je li ovo tvoj mobitel? | Is this your phone?
+put | way; trip; time (occasion) | n-m | | Sretan put! | Have a good trip!
+raditi | to work; to do | v-ipf | pf. napraviti / uraditi | Što radiš večeras? | What are you doing tonight?
+godina | year | n-f | | Imam trideset godina. | I'm thirty years old.
+bolje | better | adv | | Osjećam se bolje. | I feel better.
+svoj / svoja / svoje | one's own | pron | refers back to the subject | Uzmi svoje stvari. | Take your things.
+dati | to give | v-pf | ipf. davati; present: dam | Daj mi to. | Give me that.
+nemoj | don't (imperative) | part | + infinitive; pl. nemojte | Nemoj ići. | Don't go.
+puno | a lot; many | adv | | Puno hvala! | Thanks a lot!
+netko | someone | pron | | Netko je na vratima. | Someone is at the door.
+kod | at (someone's place); near | prep | + gen. | Ja sam kod kuće. | I'm at home.
+vidjeti | to see | v-bi | present: vidim | Vidimo se sutra! | See you tomorrow!
+mama | mum | n-f | | Mama, gladan sam! | Mum, I'm hungry!
+izgledati | to look; to seem | v-ipf | | Izgledaš umorno. | You look tired.
+dobar / dobra / dobro | good | adj | | To je dobra ideja. | That's a good idea.
+dva / dvije | two | num | dvije with feminine nouns | Dvije kave, molim. | Two coffees, please.
+život | life | n-m | | Takav je život. | That's life.
+tata | dad | n-m | declines like a feminine noun | Tata je na poslu. | Dad is at work.
+voljeti | to love; to like | v-ipf | | Volim te. | I love you.
+jako | very; strongly | adv | | Jako mi je drago. | I'm very glad.
+pomoći | to help | v-pf | ipf. pomagati; present: pomognem | Možeš li mi pomoći? | Can you help me?
+kuća | house; home | n-f | "kući" = (to) home | Idem kući. | I'm going home.
+danas | today | adv | | Danas je lijepo vrijeme. | The weather is nice today.
+neki / neka / neko | some; a certain | pron | | Neki ljudi su ljubazni. | Some people are kind.
+opet | again | adv | | Opet kasniš! | You're late again!
+vrlo | very | adv | | Vrlo dobro. | Very good.
+upravo | just (now); exactly | adv | | Upravo sam stigao. | I've just arrived.
+učiniti | to do; to make | v-pf | ipf. činiti | Što mogu učiniti za vas? | What can I do for you?
+nakon | after | prep | + gen. | Nakon posla idem u teretanu. | After work I go to the gym.
+odmah | immediately; right away | adv | | Dolazim odmah! | I'm coming right away!
+ime | name | n-n | gen. imena | Kako ti je ime? | What's your name?
+sigurno | surely; certainly | adv | | Sigurno će doći. | He'll surely come.
+tri | three | num | | Tri piva, molim. | Three beers, please.
+evo | here is; here you go | part | | Evo ti ključ. | Here's the key.
+nitko | nobody | pron | | Nitko nije došao. | Nobody came.
+mnogo | much; many | adv | | Mnogo ljudi živi ovdje. | Many people live here.
+oko | around; about (approx.) | prep | + gen. | Oko pet sati. | Around five o'clock.
+čak | even | part | | Čak i on zna. | Even he knows.
+toliko | so much; so many | adv | | Toliko te volim. | I love you so much.
+žena | woman; wife | n-f | | Ona je moja žena. | She is my wife.
+bok | hi; bye | intj | informal | Bok, kako si? | Hi, how are you?
+prema | towards; according to | prep | + dat. / + loc. | Idi prema moru. | Go towards the sea.
+postojati | to exist | v-ipf | "postoji" = there is | Postoji problem. | There's a problem.
+mjesto | place; seat | n-n | | Je li ovo mjesto slobodno? | Is this seat free?
+čekati | to wait | v-ipf | pf. pričekati | Čekaj me! | Wait for me!
+novac | money | n-m | gen. novca | Nemam novca. | I don't have any money.
+dovoljno | enough | adv | | Imamo dovoljno hrane. | We have enough food.
+drugi / druga / drugo | second; other | num | | Drugi put. | Next time.
+jednom | once | adv | | Bio sam tamo jednom. | I was there once.
+prvi / prva / prvo | first | num | | Ovo je moj prvi put. | This is my first time.
+način | way; manner | n-m | | Na koji način? | In what way?
+otac | father | n-m | gen. oca | Moj otac je liječnik. | My father is a doctor.
+doći | to come | v-pf | ipf. dolaziti; present: dođem | Dođi ovamo! | Come here!
+oprostiti | to forgive; to excuse | v-pf | "Oprostite!" = Excuse me! | Oprostite, gdje je stanica? | Excuse me, where is the station?
+lijepo | nicely; it's nice | adv | | Lijepo je vidjeti te. | It's nice to see you.
+dakle | so; therefore | conj | | Dakle, idemo? | So, shall we go?
+vrata | door | n-pl | plural-only (neuter) | Zatvori vrata. | Close the door.
+događati se | to happen | v-ipf | pf. dogoditi se | Što se događa? | What's happening?
+razgovarati | to talk | v-ipf | | Moramo razgovarati. | We need to talk.
+naći | to find | v-pf | ipf. nalaziti; present: nađem | Ne mogu naći ključeve. | I can't find my keys.
+nekoliko | several; a few | num | + gen. | Za nekoliko dana. | In a few days.
+dalje | further; on | adv | | Idemo dalje. | Let's move on.
+zajedno | together | adv | | Idemo zajedno. | Let's go together.
+drago | glad | adv | "Drago mi je" = Nice to meet you | Drago mi je! | Nice to meet you!
+problem | problem | n-m | | Nema problema. | No problem.
+previše | too much | adv | | Radiš previše. | You work too much.
+kroz | through | prep | + acc. | Gledam kroz prozor. | I'm looking through the window.
+siguran / sigurna / sigurno | sure; safe | adj | | Jesi li siguran? | Are you sure?
+sutra | tomorrow | adv | | Vidimo se sutra. | See you tomorrow.
+vratiti | to return; to give back | v-pf | ipf. vraćati; "vratiti se" = to come back | Vratit ću se brzo. | I'll be back soon.
+zapravo | actually | adv | | Zapravo, ne znam. | Actually, I don't know.
+dobiti | to get; to receive | v-pf | ipf. dobivati | Dobio sam poruku. | I got a message.
+ovamo | (to) here | adv | direction: towards here | Dođi ovamo. | Come here.
+dugo | for a long time | adv | | Dugo te nisam vidio. | I haven't seen you for a long time.
+otići | to leave; to go away | v-pf | ipf. odlaziti; present: odem | Moram otići. | I have to leave.
+pravo | right (entitlement) | n-n | "imati pravo" = to be right | Imaš pravo. | You're right.
+gore | up; upstairs | adv | | On je gore. | He's upstairs.
+točno | exactly; correct | adv | | Točno tako! | Exactly!
+svaki / svaka / svako | every; each | pron | | Svaki dan. | Every day.
+pod | under | prep | + instr. / + acc. | Mačka je pod stolom. | The cat is under the table.
+osim | except; besides | prep | + gen. | Svi osim mene. | Everyone except me.
+dosta | enough; quite | adv | | Dosta je! | That's enough!
+slušati | to listen | v-ipf | pf. poslušati | Slušaj me! | Listen to me!
+noć | night | n-f | | Laku noć! | Good night!
+teško | hard; difficult | adv | | Teško je. | It's hard.
+čuti | to hear | v-bi | present: čujem | Čuješ li me? | Can you hear me?
+pogledati | to look at; to watch | v-pf | ipf. gledati | Pogledaj ovo! | Look at this!
+odavde | from here | adv | | Je li daleko odavde? | Is it far from here?
+brzo | quickly; fast | adv | | Dođi brzo! | Come quickly!
+protiv | against | prep | + gen. | Ja sam protiv toga. | I'm against that.
+loše | badly; bad | adv | | Osjećam se loše. | I feel bad.
+super | great | adj | indeclinable | To je super! | That's great!
+dijete | child | n-n | pl. djeca | Imaju jedno dijete. | They have one child.
+večeras | tonight; this evening | adv | | Što radiš večeras? | What are you doing tonight?
+vjerojatno | probably | adv | | Vjerojatno će kasniti. | He'll probably be late.
+par | pair; couple; a few | n-m | | Za par minuta. | In a couple of minutes.
+unutra | inside | adv | | Uđi unutra. | Come inside.
+pomoć | help | n-f | | Trebam tvoju pomoć. | I need your help.
+sviđati se | to like (lit. to please) | v-ipf | pf. svidjeti se; "Sviđa mi se" = I like it | Sviđa mi se ovaj grad. | I like this city.
+nadati se | to hope | v-ipf | | Nadam se da je dobro. | I hope he's okay.
+isto | the same; also | adv | | I meni isto. | Same for me.
+auto | car | n-m | gen. auta | Gdje si parkirao auto? | Where did you park the car?
+istina | truth | n-f | | To je istina. | That's true.
+napraviti | to make; to do | v-pf | ipf. praviti | Napravit ću večeru. | I'll make dinner.
+mali / mala / malo | small; little | adj | | Imam mali stan. | I have a small flat.
+njegov / njegova / njegovo | his | pron | | Ovo je njegova sestra. | This is his sister.
+dolje | down; downstairs | adv | | Čekam te dolje. | I'm waiting for you downstairs.
+minuta | minute | n-f | | Pet minuta. | Five minutes.
+ovako | like this | adv | | Radi se ovako. | It's done like this.
+prvo | first (of all) | adv | | Prvo jedemo, onda idemo. | First we eat, then we go.
+uz | along; with; next to | prep | + acc. | Kava uz kolač. | Coffee with cake.
+sto | hundred | num | | Sto eura. | A hundred euros.
+preko | across; over; via | prep | + gen. | Preko ceste. | Across the road.
+van | out; outside | adv | | Idemo van! | Let's go out!
+mjesec | month; moon | n-m | | Idući mjesec idem u Split. | Next month I'm going to Split.
+tjedan | week | n-m | gen. tjedna | Vidimo se idući tjedan. | See you next week.
+sat | hour; clock; watch | n-m | | Koliko je sati? | What time is it?
+jutro | morning | n-n | | Dobro jutro! | Good morning!
+večer | evening | n-f | | Dobra večer! | Good evening!
+jučer | yesterday | adv | | Jučer sam bio bolestan. | I was sick yesterday.
+kasno | late | adv | | Prekasno je. | It's too late.
+rano | early | adv | | Ustajem rano. | I get up early.
+kasnije | later | adv | | Vidimo se kasnije. | See you later.
+poslije | after; afterwards | adv | also prep. + gen. | Poslije ručka. | After lunch.
+ponovno / ponovo | again; anew | adv | | Pokušaj ponovno. | Try again.
+ponekad | sometimes | adv | | Ponekad kuham. | I sometimes cook.
+često | often | adv | | Često idem na plažu. | I often go to the beach.
+obično | usually | adv | | Obično pijem čaj. | I usually drink tea.
+stalno | constantly; all the time | adv | | Stalno pada kiša. | It rains all the time.
+konačno | finally | adv | | Konačno si ovdje! | You're finally here!
+skoro | almost; soon | adv | | Skoro sam gotov. | I'm almost done.
+gotovo | almost; finished | adv | | Gotovo je. | It's over.
+gotov / gotova / gotovo | finished; ready | adj | | Ručak je gotov. | Lunch is ready.
+spreman / spremna / spremno | ready | adj | | Jesi li spreman? | Are you ready?
+ljudi | people | n-pl | plural of čovjek | Ovdje ima puno ljudi. | There are a lot of people here.
+prijatelj / prijateljica | friend | n-m | f. prijateljica | Ovo je moj prijatelj Marko. | This is my friend Marko.
+majka | mother | n-f | | Moja majka je učiteljica. | My mother is a teacher.
+brat | brother | n-m | pl. braća | Imam starijeg brata. | I have an older brother.
+sestra | sister | n-f | | Moja sestra živi u Londonu. | My sister lives in London.
+sin | son | n-m | | Njihov sin ima pet godina. | Their son is five.
+kći / kćer | daughter | n-f | gen. kćeri | Ovo je moja kći. | This is my daughter.
+obitelj | family | n-f | | Moja obitelj je velika. | My family is big.
+muž | husband | n-m | | Moj muž kuha. | My husband cooks.
+djevojka | girl; girlfriend | n-f | | Ona je moja djevojka. | She's my girlfriend.
+dečko | boy; boyfriend | n-m | | Njezin dečko je iz Rijeke. | Her boyfriend is from Rijeka.
+momak | young man; lad | n-m | gen. momka | Dobar je to momak. | He's a good lad.
+djeca | children | n-pl | plural of dijete | Djeca se igraju vani. | The children are playing outside.
+bolji / bolja / bolje | better | adj | comparative of dobar | Ovaj je bolji. | This one is better.
+najbolji / najbolja / najbolje | best | adj | superlative of dobar | Ti si moj najbolji prijatelj. | You're my best friend.
+veliki / velika / veliko | big; great | adj | | Zagreb je veliki grad. | Zagreb is a big city.
+novi / nova / novo | new | adj | | Imam novi posao. | I have a new job.
+star / stara / staro | old | adj | | Ovo je stara kuća. | This is an old house.
+lijep / lijepa / lijepo | beautiful; nice | adj | | Lijep dan! | Lovely day!
+pravi / prava / pravo | real; right; proper | adj | | To je pravi prijatelj. | That's a real friend.
+cijeli / cijela / cijelo | whole; entire | adj | | Cijeli dan sam radio. | I worked the whole day.
+važan / važna / važno | important | adj | | To je jako važno. | That's very important.
+važno | important (it is) | adv | | Nije važno. | It doesn't matter.
+moguće | possible | adv | | Je li to moguće? | Is that possible?
+jasno | clear; clearly | adv | | Je li jasno? | Is that clear?
+ozbiljno | seriously | adv | | Ozbiljno? | Seriously?
+potpuno | completely | adv | | Potpuno se slažem. | I completely agree.
+odlično | excellent | adv | | Odlično! | Excellent!
+sjajno | great; brilliant | adv | | Zvuči sjajno! | Sounds great!
+čudno | strange; strangely | adv | | To je čudno. | That's strange.
+lako | easy; easily | adv | | Nije lako. | It's not easy.
+blizu | near; close | adv | also prep. + gen. | Živim blizu mora. | I live near the sea.
+daleko | far | adv | | Je li daleko? | Is it far?
+negdje | somewhere | adv | | Negdje sam ostavio ključeve. | I left my keys somewhere.
+vani | outside | adv | | Hladno je vani. | It's cold outside.
+naprijed | forward; ahead | adv | | Samo naprijed! | Go ahead!
+natrag | back; backwards | adv | | Idemo natrag. | Let's go back.
+kamo | where (to) | adv | | Kamo ideš? | Where are you going?
+odakle | where from | adv | | Odakle si? | Where are you from?
+kakav / kakva / kakvo | what kind of; what (is it) like | pron | | Kakvo je vrijeme? | What's the weather like?
+takav / takva / takvo | such; like that | pron | | Takav je on. | That's how he is.
+nikakav / nikakva / nikakvo | no; none (at all) | pron | | Nemam nikakvu ideju. | I have no idea at all.
+onaj / ona / ono | that (over there) | pron | | Vidiš onu kuću? | Do you see that house?
+četiri | four | num | | Četiri sata. | Four hours.
+pet | five | num | | Pet minuta. | Five minutes.
+šest | six | num | | U šest sati. | At six o'clock.
+sedam | seven | num | | Sedam dana u tjednu. | Seven days a week.
+osam | eight | num | | Radim osam sati dnevno. | I work eight hours a day.
+devet | nine | num | | Devet eura. | Nine euros.
+deset | ten | num | | Deset minuta. | Ten minutes.
+dvadeset | twenty | num | | Dvadeset eura. | Twenty euros.
+pola | half | num | | Pola sata. | Half an hour.
+tisuća | thousand | num | | Tisuću puta hvala. | Thanks a thousand times.
+govoriti | to speak; to say | v-ipf | pf. reći | Govoriš li engleski? | Do you speak English?
+kazati | to say; to tell | v-bi | present: kažem; "kaže" = he/she says | Što kažeš? | What do you say?
+pričati | to talk; to tell (a story) | v-ipf | | O čemu pričaš? | What are you talking about?
+pitati | to ask | v-ipf | pf. upitati | Mogu li te nešto pitati? | Can I ask you something?
+odgovoriti | to answer | v-pf | ipf. odgovarati | Odgovori mi! | Answer me!
+zvati | to call | v-ipf | pf. nazvati; present: zovem | Zovem se Ana. | My name is Ana.
+nazvati | to call (phone) | v-pf | ipf. zvati; present: nazovem | Nazovi me sutra. | Call me tomorrow.
+razumjeti | to understand | v-bi | present: razumijem | Ne razumijem. | I don't understand.
+shvatiti | to realise; to get it | v-pf | ipf. shvaćati | Sad shvaćam. | Now I get it.
+vjerovati | to believe; to trust | v-ipf | present: vjerujem | Vjerujem ti. | I believe you.
+sjećati se | to remember | v-ipf | pf. sjetiti se | Sjećaš li se mene? | Do you remember me?
+zaboraviti | to forget | v-pf | ipf. zaboravljati | Zaboravio sam ključeve. | I forgot my keys.
+osjećati se | to feel | v-ipf | pf. osjetiti | Kako se osjećaš? | How do you feel?
+gledati | to watch; to look | v-ipf | pf. pogledati | Gledam film. | I'm watching a film.
+uzeti | to take | v-pf | ipf. uzimati; present: uzmem | Uzmi kišobran. | Take an umbrella.
+staviti | to put | v-pf | ipf. stavljati | Stavi to na stol. | Put that on the table.
+ostati | to stay; to remain | v-pf | ipf. ostajati; present: ostanem | Ostani još malo. | Stay a bit longer.
+ostaviti | to leave (something) | v-pf | ipf. ostavljati | Ostavi me na miru. | Leave me alone.
+pustiti | to let; to let go | v-pf | ipf. puštati | Pusti me! | Let me go!
+živjeti | to live | v-ipf | present: živim | Gdje živiš? | Where do you live?
+umrijeti | to die | v-pf | ipf. umirati; past: umro | Njegov djed je umro. | His grandfather died.
+ubiti | to kill | v-pf | ipf. ubijati | Ovi komarci će me ubiti. | These mosquitoes will kill me.
+stići | to arrive | v-pf | ipf. stizati; present: stignem | Kada stiže vlak? | When does the train arrive?
+ući | to enter; to come in | v-pf | ipf. ulaziti; present: uđem | Uđite, molim! | Come in, please!
+izaći | to go out; to exit | v-pf | ipf. izlaziti; present: izađem | Izašli smo na večeru. | We went out to dinner.
+dolaziti | to come (repeatedly) | v-ipf | pf. doći | Dolazim! | I'm coming!
+odlaziti | to leave (go away) | v-ipf | pf. otići | Već odlaziš? | Are you leaving already?
+krenuti | to set off; to start moving | v-pf | ipf. kretati | Krećemo u osam. | We're setting off at eight.
+početi | to begin; to start | v-pf | ipf. počinjati; present: počnem | Film počinje u devet. | The film starts at nine.
+završiti | to finish | v-pf | ipf. završavati | Jesi li završio? | Have you finished?
+prestati | to stop (doing) | v-pf | ipf. prestajati; present: prestanem | Prestani! | Stop it!
+stati | to stop; to stand | v-pf | ipf. stajati; present: stanem | Stani! | Stop!
+pokušati | to try | v-pf | ipf. pokušavati | Pokušat ću. | I'll try.
+probati | to try; to taste | v-pf | ipf. probavati | Probaj ovo! | Try this!
+dogoditi se | to happen | v-pf | ipf. događati se | Što se dogodilo? | What happened?
+postati | to become | v-pf | ipf. postajati; present: postanem | Postao je liječnik. | He became a doctor.
+igrati | to play | v-ipf | "igrati se" = to play (children) | Igramo nogomet. | We're playing football.
+jesti | to eat | v-ipf | present: jedem; pf. pojesti | Što ćemo jesti? | What shall we eat?
+piti | to drink | v-ipf | present: pijem; pf. popiti | Što piješ? | What are you drinking?
+spavati | to sleep | v-ipf | present: spavam | Idem spavati. | I'm going to sleep.
+kupiti | to buy | v-pf | ipf. kupovati; present: kupim | Moram kupiti kruh. | I have to buy bread.
+platiti | to pay | v-pf | ipf. plaćati | Mogu li platiti karticom? | Can I pay by card?
+prodati | to sell | v-pf | ipf. prodavati; present: prodam | Prodali su kuću. | They sold the house.
+tražiti | to look for; to ask for | v-ipf | pf. potražiti | Što tražiš? | What are you looking for?
+pronaći | to find | v-pf | ipf. pronalaziti; present: pronađem | Pronašao sam posao. | I found a job.
+izgubiti | to lose | v-pf | ipf. gubiti | Izgubio sam novčanik. | I lost my wallet.
+pobijediti | to win; to defeat | v-pf | ipf. pobjeđivati | Tko je pobijedio? | Who won?
+čitati | to read | v-ipf | pf. pročitati | Čitam knjigu. | I'm reading a book.
+pisati | to write | v-ipf | present: pišem; pf. napisati | Piši mi! | Write to me!
+učiti | to learn; to study | v-ipf | pf. naučiti | Učim hrvatski. | I'm learning Croatian.
+naučiti | to learn; to teach | v-pf | ipf. učiti | Naučio sam puno. | I've learned a lot.
+nositi | to carry; to wear | v-ipf | | Što nosiš? | What are you wearing?
+donijeti | to bring | v-pf | ipf. donositi; present: donesem | Donesi mi vodu. | Bring me water.
+dovesti | to bring (someone) | v-pf | ipf. dovoditi; present: dovedem | Dovedi djecu. | Bring the kids.
+voziti | to drive | v-ipf | | Voziš li ti? | Are you driving?
+sjesti | to sit down | v-pf | ipf. sjedati; present: sjednem | Sjednite, molim. | Please sit down.
+sjediti | to be sitting | v-ipf | | Sjedim u kafiću. | I'm sitting in a café.
+stajati | to stand | v-ipf | present: stojim | Zašto stojiš? | Why are you standing?
+ležati | to lie (down) | v-ipf | present: ležim | Ležim na plaži. | I'm lying on the beach.
+ustati | to get up | v-pf | ipf. ustajati; present: ustanem | Ustani! | Get up!
+otvoriti | to open | v-pf | ipf. otvarati | Otvori prozor. | Open the window.
+zatvoriti | to close | v-pf | ipf. zatvarati | Zatvori vrata, molim. | Close the door, please.
+čuvati | to look after; to keep | v-ipf | pf. sačuvati | Čuvaj se! | Take care!
+brinuti | to worry; to take care | v-ipf | "brinuti se" = to worry | Ne brini! | Don't worry!
+bojati se | to be afraid | v-ipf | present: bojim se | Bojim se pasa. | I'm afraid of dogs.
+smijati se | to laugh | v-ipf | present: smijem se | Zašto se smiješ? | Why are you laughing?
+plakati | to cry | v-ipf | present: plačem | Nemoj plakati. | Don't cry.
+mrziti | to hate | v-ipf | | Mrzim ponedjeljke. | I hate Mondays.
+odlučiti | to decide | v-pf | ipf. odlučivati | Odlučio sam ostati. | I decided to stay.
+promijeniti | to change | v-pf | ipf. mijenjati | Sve se promijenilo. | Everything has changed.
+upoznati | to meet; to get to know | v-pf | ipf. upoznavati | Drago mi je što smo se upoznali. | Nice to have met you.
+poznavati | to know (a person) | v-ipf | present: poznajem | Poznaješ li Marka? | Do you know Marko?
+sresti | to meet (by chance) | v-pf | ipf. sretati; present: sretnem | Sreo sam ga u gradu. | I met him in town.
+nedostajati | to be missing; to miss | v-ipf | "Nedostaješ mi" = I miss you | Nedostaješ mi. | I miss you.
+trčati | to run | v-ipf | present: trčim | Trčim svako jutro. | I run every morning.
+hodati | to walk | v-ipf | | Volim hodati. | I like walking.
+putovati | to travel | v-ipf | present: putujem | Volim putovati. | I love travelling.
+kuhati | to cook | v-ipf | pf. skuhati | Tko danas kuha? | Who's cooking today?
+čistiti | to clean | v-ipf | pf. očistiti | Čistim kuću subotom. | I clean the house on Saturdays.
+prati | to wash | v-ipf | present: perem; pf. oprati | Operi ruke! | Wash your hands!
+obući | to put on (clothes) | v-pf | ipf. oblačiti; "obući se" = to get dressed | Obuci jaknu. | Put on a jacket.
+plivati | to swim | v-ipf | | Idemo plivati! | Let's go swimming!
+pjevati | to sing | v-ipf | present: pjevam | Lijepo pjevaš. | You sing beautifully.
+plesati | to dance | v-ipf | present: plešem | Želiš li plesati? | Do you want to dance?
+koristiti | to use | v-ipf | pf. iskoristiti | Koristiš li ovo? | Are you using this?
+trajati | to last | v-ipf | present: traje | Koliko traje film? | How long is the film?
+koštati | to cost | v-ipf | | Koliko košta karta? | How much is the ticket?
+nazad | back | adv | colloquial for natrag | Vraćam se nazad. | I'm going back.
+grad | city; town | n-m | | Zagreb je glavni grad. | Zagreb is the capital city.
+zemlja | country; earth; ground | n-f | | Hrvatska je lijepa zemlja. | Croatia is a beautiful country.
+svijet | world | n-m | | Želim putovati po svijetu. | I want to travel the world.
+more | sea | n-n | | Idemo na more! | Let's go to the seaside!
+voda | water | n-f | | Čašu vode, molim. | A glass of water, please.
+hrana | food | n-f | | Hrana je odlična. | The food is excellent.
+kava | coffee | n-f | | Idemo na kavu? | Shall we go for a coffee?
+čaj | tea | n-m | | Želiš li čaj? | Would you like tea?
+pivo | beer | n-n | | Jedno pivo, molim. | One beer, please.
+vino | wine | n-n | | Crno ili bijelo vino? | Red or white wine?
+kruh | bread | n-m | | Svježi kruh. | Fresh bread.
+mlijeko | milk | n-n | | Kava s mlijekom. | Coffee with milk.
+meso | meat | n-n | | Ne jedem meso. | I don't eat meat.
+riba | fish | n-f | | Riba je svježa. | The fish is fresh.
+jaje | egg | n-n | pl. jaja | Dva jaja za doručak. | Two eggs for breakfast.
+sir | cheese | n-m | | Paški sir je poznat. | Pag cheese is famous.
+voće | fruit | n-n | collective | Jedem puno voća. | I eat a lot of fruit.
+povrće | vegetables | n-n | collective | Svježe povrće s tržnice. | Fresh vegetables from the market.
+jabuka | apple | n-f | | Jedna jabuka dnevno. | An apple a day.
+sol | salt | n-f | | Dodaj malo soli. | Add a little salt.
+šećer | sugar | n-m | | Bez šećera, molim. | Without sugar, please.
+doručak | breakfast | n-m | gen. doručka | Što je za doručak? | What's for breakfast?
+ručak | lunch | n-m | gen. ručka | Ručak je u dva. | Lunch is at two.
+večera | dinner | n-f | | Večera je spremna. | Dinner is ready.
+stol | table | n-m | | Stol za dvoje, molim. | A table for two, please.
+stolica | chair | n-f | | Sjedni na stolicu. | Sit on the chair.
+krevet | bed | n-m | | Idem u krevet. | I'm going to bed.
+soba | room | n-f | | Imate li slobodnu sobu? | Do you have a free room?
+stan | flat; apartment | n-m | | Iznajmljujem stan. | I'm renting a flat.
+kupaonica | bathroom | n-f | | Gdje je kupaonica? | Where's the bathroom?
+kuhinja | kitchen | n-f | | Mama je u kuhinji. | Mum is in the kitchen.
+prozor | window | n-m | | Otvori prozor. | Open the window.
+zid | wall | n-m | | Slika na zidu. | The picture on the wall.
+ključ | key | n-m | | Gdje je ključ? | Where's the key?
+telefon | telephone | n-m | | Zvoni ti telefon. | Your phone is ringing.
+mobitel | mobile phone | n-m | | Napuni mobitel. | Charge your phone.
+poruka | message | n-f | | Pošalji mi poruku. | Send me a message.
+knjiga | book | n-f | | Čitam dobru knjigu. | I'm reading a good book.
+pismo | letter | n-n | | Dobio sam pismo. | I got a letter.
+slika | picture; photo | n-f | | Lijepa slika! | Nice picture!
+film | film; movie | n-m | | Idemo u kino na film. | Let's go to the cinema to see a film.
+glazba | music | n-f | | Volim hrvatsku glazbu. | I love Croatian music.
+pjesma | song; poem | n-f | | Ova pjesma je super. | This song is great.
+igra | game | n-f | | To je samo igra. | It's only a game.
+škola | school | n-f | | Djeca su u školi. | The kids are at school.
+ured | office | n-m | | Ona je u uredu. | She's in the office.
+trgovina | shop | n-f | | Idem u trgovinu. | I'm going to the shop.
+dućan | shop (store) | n-m | gen. dućana | Dućan je zatvoren. | The shop is closed.
+tržnica | market | n-f | | Kupujem voće na tržnici. | I buy fruit at the market.
+restoran | restaurant | n-m | | Znaš li dobar restoran? | Do you know a good restaurant?
+kafić | café | n-m | | Nađimo se u kafiću. | Let's meet at the café.
+hotel | hotel | n-m | | Hotel je blizu plaže. | The hotel is near the beach.
+bolnica | hospital | n-f | | Moramo u bolnicu. | We have to go to the hospital.
+crkva | church | n-f | | Stara crkva u centru. | The old church in the centre.
+ulica | street | n-f | | U kojoj ulici živiš? | Which street do you live on?
+cesta | road | n-f | | Cesta je zatvorena. | The road is closed.
+most | bridge | n-m | | Prijeđi most. | Cross the bridge.
+plaža | beach | n-f | | Idemo na plažu. | Let's go to the beach.
+otok | island | n-m | | Hrvatska ima više od tisuću otoka. | Croatia has more than a thousand islands.
+park | park | n-m | | Šetamo u parku. | We're walking in the park.
+centar | centre | n-m | | Hotel je u centru grada. | The hotel is in the city centre.
+stanica | stop; station | n-f | | Gdje je autobusna stanica? | Where's the bus stop?
+kolodvor | (railway/bus) station | n-m | | Glavni kolodvor. | The main station.
+aerodrom / zračna luka | airport | n-m | zračna luka (f) is the official term | Kako doći do aerodroma? | How do I get to the airport?
+vlak | train | n-m | | Vlak kasni. | The train is late.
+autobus | bus | n-m | | Idem autobusom. | I'm going by bus.
+avion | aeroplane | n-m | | Avion polijeće u pet. | The plane takes off at five.
+brod | ship; boat | n-m | | Idemo brodom na otok. | We're going to the island by boat.
+trajekt | ferry | n-m | | Trajekt za Hvar. | The ferry to Hvar.
+karta | ticket; map; card | n-f | | Jednu kartu za Split, molim. | One ticket to Split, please.
+novčanik | wallet | n-m | | Izgubio sam novčanik. | I lost my wallet.
+euro | euro | n-m | pl. eura / eure | To košta deset eura. | That costs ten euros.
+cijena | price | n-f | | Kolika je cijena? | What's the price?
+račun | bill; account | n-m | | Račun, molim. | The bill, please.
+pitanje | question | n-n | | Imam pitanje. | I have a question.
+odgovor | answer | n-m | | Znaš li odgovor? | Do you know the answer?
+riječ | word | n-f | | Kako se kaže ova riječ? | How do you say this word?
+jezik | language; tongue | n-m | | Hrvatski je težak jezik. | Croatian is a difficult language.
+ideja | idea | n-f | | Imam ideju! | I have an idea!
+razlog | reason | n-m | | Iz kojeg razloga? | For what reason?
+slučaj | case; event | n-m | "u svakom slučaju" = in any case | Za svaki slučaj. | Just in case.
+prilika | chance; opportunity | n-f | | Ovo je tvoja prilika. | This is your chance.
+plan | plan | n-m | | Kakav je plan? | What's the plan?
+kraj | end; region | n-m | | Kraj filma. | The end of the film.
+početak | beginning | n-m | gen. početka | Na početku. | At the beginning.
+dio | part | n-m | gen. dijela | To je dio plana. | That's part of the plan.
+broj | number | n-m | | Koji je tvoj broj? | What's your number?
+strana | side; page | n-f | | S druge strane. | On the other side.
+trenutak | moment | n-m | gen. trenutka | Samo trenutak! | Just a moment!
+sreća | luck; happiness | n-f | "Sretno!" = Good luck! | Kakva sreća! | What luck!
+ljubav | love | n-f | | Ljubav je slijepa. | Love is blind.
+srce | heart | n-n | | Od srca hvala. | Thank you from the heart.
+glava | head | n-f | | Boli me glava. | I have a headache.
+ruka | hand; arm | n-f | pl. ruke | Daj mi ruku. | Give me your hand.
+noga | leg; foot | n-f | | Boli me noga. | My leg hurts.
+oko | eye | n-n | pl. oči | Ima plave oči. | She has blue eyes.
+lice | face | n-n | | Imaš nešto na licu. | You have something on your face.
+kosa | hair | n-f | | Ima dugu kosu. | She has long hair.
+usta | mouth | n-pl | plural-only | Otvori usta. | Open your mouth.
+tijelo | body | n-n | | Ljudsko tijelo. | The human body.
+krv | blood | n-f | | Krv je gušća od vode. | Blood is thicker than water.
+zdravlje | health | n-n | "Živjeli!" = Cheers! | Zdravlje je najvažnije. | Health is the most important thing.
+doktor / liječnik | doctor | n-m | liječnik is more formal | Trebam liječnika. | I need a doctor.
+policija | police | n-f | | Zovi policiju! | Call the police!
+gospodin | Mr; gentleman | n-m | pl. gospoda | Gospodin Horvat. | Mr Horvat.
+gospođa | Mrs; lady | n-f | | Gospođa Kovač. | Mrs Kovač.
+gospođica | Miss | n-f | | Gospođica Babić. | Miss Babić.
+šef | boss | n-m | | Moj šef je strog. | My boss is strict.
+dama | lady | n-f | "Dame i gospodo" = Ladies and gentlemen | Dame imaju prednost. | Ladies first.
+dečki | guys; boys | n-pl | plural of dečko | Hajde, dečki! | Come on, guys!
+osoba | person | n-f | | Ona je dobra osoba. | She's a good person.
+susjed / susjeda | neighbour | n-m | f. susjeda | Moj susjed je ljubazan. | My neighbour is kind.
+baka | grandmother | n-f | | Idem kod bake. | I'm going to grandma's.
+djed | grandfather | n-m | | Moj djed ima devedeset godina. | My grandfather is ninety.
+roditelji | parents | n-pl | | Moji roditelji žive u Zadru. | My parents live in Zadar.
+beba | baby | n-f | | Beba spava. | The baby is sleeping.
+pas | dog | n-m | gen. psa | Imaš li psa? | Do you have a dog?
+mačka | cat | n-f | | Mačka spava na kauču. | The cat is sleeping on the sofa.
+Bog | God | n-m | | Hvala Bogu! | Thank God!
+dom | home | n-m | | Dobrodošli u naš dom. | Welcome to our home.
+nebo | sky | n-n | | Nebo je plavo. | The sky is blue.
+sunce | sun | n-n | | Sunce sja. | The sun is shining.
+kiša | rain | n-f | "pada kiša" = it's raining | Pada kiša. | It's raining.
+snijeg | snow | n-m | | Pada snijeg! | It's snowing!
+vjetar | wind | n-m | gen. vjetra | Puše jak vjetar. | A strong wind is blowing.
+zrak | air | n-m | | Svjež zrak. | Fresh air.
+vatra | fire | n-f | | Zapali vatru. | Light the fire.
+drvo | tree; wood | n-n | collective drveće (trees); drva = firewood | Veliko drvo. | A big tree.
+cvijet | flower | n-m | pl. cvijeće | Kupio sam joj cvijeće. | I bought her flowers.
+planina | mountain | n-f | | Idemo na planinu. | We're going to the mountains.
+rijeka | river | n-f | | Sava je velika rijeka. | The Sava is a big river.
+selo | village | n-n | | Moja baka živi na selu. | My grandmother lives in the countryside.
+ljeto | summer | n-n | | Ljeti idemo na more. | In summer we go to the seaside.
+zima | winter | n-f | | Zimi je hladno. | It's cold in winter.
+proljeće | spring | n-n | | U proljeće sve cvjeta. | In spring everything blooms.
+jesen | autumn | n-f | | Jesen je kišna. | Autumn is rainy.
+ponedjeljak | Monday | n-m | gen. ponedjeljka | Vidimo se u ponedjeljak. | See you on Monday.
+utorak | Tuesday | n-m | gen. utorka | U utorak radim. | I'm working on Tuesday.
+srijeda | Wednesday | n-f | | Srijeda je sredina tjedna. | Wednesday is the middle of the week.
+četvrtak | Thursday | n-m | gen. četvrtka | Sastanak je u četvrtak. | The meeting is on Thursday.
+petak | Friday | n-m | gen. petka | Napokon je petak! | It's finally Friday!
+subota | Saturday | n-f | | U subotu idemo van. | On Saturday we're going out.
+nedjelja | Sunday; week (colloq.) | n-f | | U nedjelju odmaramo. | On Sunday we rest.
+vikend | weekend | n-m | | Što radiš za vikend? | What are you doing at the weekend?
+odmor | rest; holiday | n-m | | Idem na godišnji odmor. | I'm going on (annual) holiday.
+praznik | (public) holiday | n-m | | Sutra je praznik. | Tomorrow is a holiday.
+rođendan | birthday | n-m | | Sretan rođendan! | Happy birthday!
+Božić | Christmas | n-m | | Sretan Božić! | Merry Christmas!
+zabava | party; fun | n-f | | Dolaziš li na zabavu? | Are you coming to the party?
+mlad / mlada / mlado | young | adj | | Još si mlad. | You're still young.
+loš / loša / loše | bad | adj | | Loš dan. | A bad day.
+sretan / sretna / sretno | happy; lucky | adj | | Sretan sam. | I'm happy.
+tužan / tužna / tužno | sad | adj | | Zašto si tužan? | Why are you sad?
+umoran / umorna / umorno | tired | adj | | Jako sam umorna. | I'm very tired.
+gladan / gladna / gladno | hungry | adj | | Jesi li gladan? | Are you hungry?
+žedan / žedna / žedno | thirsty | adj | | Žedna sam. | I'm thirsty.
+bolestan / bolesna / bolesno | ill; sick | adj | | Danas sam bolestan. | I'm ill today.
+zdrav / zdrava / zdravo | healthy | adj | "Zdravo!" = Hello! | Zdrava hrana. | Healthy food.
+ljut / ljuta / ljuto | angry; spicy | adj | | Nemoj biti ljut. | Don't be angry.
+lud / luda / ludo | crazy | adj | | Jesi li lud? | Are you crazy?
+glup / glupa / glupo | stupid | adj | | Kakvo glupo pitanje. | What a stupid question.
+pametan / pametna / pametno | clever; smart | adj | | Ona je jako pametna. | She's very clever.
+drag / draga / drago | dear | adj | | Draga moja. | My dear.
+mrtav / mrtva / mrtvo | dead | adj | | Baterija je mrtva. | The battery is dead.
+živ / živa / živo | alive | adj | | Još je živ. | He's still alive.
+slobodan / slobodna / slobodno | free (not busy) | adj | | Jesi li slobodan sutra? | Are you free tomorrow?
+zauzet / zauzeta / zauzeto | busy; occupied | adj | | Sad sam zauzet. | I'm busy right now.
+težak / teška / teško | heavy; difficult | adj | | Torba je teška. | The bag is heavy.
+lak / laka / lako | easy; light | adj | | To je lak posao. | That's an easy job.
+jak / jaka / jako | strong | adj | | Jaka kava. | Strong coffee.
+brz / brza / brzo | fast | adj | | Brz je kao vjetar. | He's as fast as the wind.
+spor / spora / sporo | slow | adj | | Internet je spor. | The internet is slow.
+dug / duga / dugo | long | adj | | Bio je dug dan. | It was a long day.
+kratak / kratka / kratko | short (length) | adj | | Kratka pauza. | A short break.
+visok / visoka / visoko | tall; high | adj | | Visok je dva metra. | He's two metres tall.
+nizak / niska / nisko | short (height); low | adj | | Niske cijene. | Low prices.
+širok / široka / široko | wide | adj | | Široka ulica. | A wide street.
+uzak / uska / usko | narrow | adj | | Uske ulice starog grada. | The narrow streets of the old town.
+pun / puna / puno | full | adj | | Čaša je puna. | The glass is full.
+prazan / prazna / prazno | empty | adj | | Hladnjak je prazan. | The fridge is empty.
+čist / čista / čisto | clean | adj | | Čista voda. | Clean water.
+prljav / prljava / prljavo | dirty | adj | | Prljavo posuđe. | Dirty dishes.
+topao / topla / toplo | warm | adj | | Toplo je danas. | It's warm today.
+hladan / hladna / hladno | cold | adj | | Hladno pivo. | A cold beer.
+vruć / vruća / vruće | hot | adj | | Pazi, vruće je! | Careful, it's hot!
+skup / skupa / skupo | expensive | adj | | Preskupo je. | It's too expensive.
+jeftin / jeftina / jeftino | cheap | adj | | Jeftin let. | A cheap flight.
+bogat / bogata / bogato | rich | adj | | Nisam bogat. | I'm not rich.
+siromašan / siromašna / siromašno | poor | adj | | Siromašna obitelj. | A poor family.
+točan / točna / točno | exact; correct | adj | | Točno vrijeme. | The exact time.
+kriv / kriva / krivo | guilty; wrong | adj | | Nisam ja kriv! | It's not my fault!
+poseban / posebna / posebno | special | adj | | Danas je poseban dan. | Today is a special day.
+zanimljiv / zanimljiva / zanimljivo | interesting | adj | | Zanimljiva knjiga. | An interesting book.
+dosadan / dosadna / dosadno | boring | adj | | Film je dosadan. | The film is boring.
+smiješan / smiješna / smiješno | funny | adj | | Baš si smiješan. | You're really funny.
+opasan / opasna / opasno | dangerous | adj | | Ovo je opasno. | This is dangerous.
+normalan / normalna / normalno | normal | adj | | To je normalno. | That's normal.
+jednostavan / jednostavna / jednostavno | simple | adj | | Jednostavno je. | It's simple.
+savršen / savršena / savršeno | perfect | adj | | Savršeno! | Perfect!
+divan / divna / divno | wonderful | adj | | Divan pogled. | A wonderful view.
+strašan / strašna / strašno | terrible; scary | adj | | Strašna gužva. | A terrible crowd.
+glavni / glavna / glavno | main | adj | | Glavni trg. | The main square.
+posljednji / posljednja / posljednje | last; final | adj | | Posljednji vlak. | The last train.
+zadnji / zadnja / zadnje | last (colloq.) | adj | | Ovo je zadnji put. | This is the last time.
+sljedeći / sljedeća / sljedeće | next | adj | | Sljedeća stanica. | The next stop.
+idući / iduća / iduće | next; coming | adj | | Idući tjedan. | Next week.
+prošli / prošla / prošlo | last; past | adj | | Prošle godine. | Last year.
+isti / ista / isto | same | adj | | Isti kao prije. | The same as before.
+različit / različita / različito | different | adj | | Mi smo jako različiti. | We're very different.
+sam / sama / samo | alone; self | adj | | Živim sam. | I live alone.
+hrvatski / hrvatska / hrvatsko | Croatian | adj | | Govoriš li hrvatski? | Do you speak Croatian?
+engleski / engleska / englesko | English | adj | | Ne govorim engleski. | I don't speak English.
+Hrvatska | Croatia | n-f | | Volim Hrvatsku. | I love Croatia.
+bijel / bijela / bijelo | white | adj | | Bijelo vino. | White wine.
+crn / crna / crno | black | adj | "crno vino" = red wine | Crna kava. | Black coffee.
+crven / crvena / crveno | red | adj | | Crvena haljina. | A red dress.
+plav / plava / plavo | blue; blond | adj | | Plavo more. | The blue sea.
+zelen / zelena / zeleno | green | adj | | Zelena salata. | Green salad.
+žut / žuta / žuto | yellow | adj | | Žuta kuća. | A yellow house.
+siv / siva / sivo | grey | adj | | Sivo nebo. | A grey sky.
+boja | colour | n-f | | Koja ti je omiljena boja? | What's your favourite colour?
+mene / me | me | pron | gen./acc. of ja | Čekaj me! | Wait for me!
+meni / mi | (to) me | pron | dat. of ja | Daj meni! | Give it to me!
+tebe / te | you (object) | pron | gen./acc. of ti | Volim te. | I love you.
+tebi / ti | (to) you | pron | dat. of ti | Hvala ti. | Thank you.
+njega / ga | him | pron | gen./acc. of on | Vidim ga. | I see him.
+njemu / mu | (to) him | pron | dat. of on | Reci mu. | Tell him.
+nju / je | her | pron | acc. of ona | Volim je. | I love her.
+njoj / joj | (to) her | pron | dat. of ona | Daj joj cvijeće. | Give her the flowers.
+nas | us | pron | gen./acc. of mi | Čekaju nas. | They're waiting for us.
+nama / nam | (to) us | pron | dat. of mi | Recite nam. | Tell us.
+vas | you (pl. object) | pron | gen./acc. of vi | Drago mi je vidjeti vas. | Nice to see you.
+vama / vam | (to) you (pl.) | pron | dat. of vi | Hvala vam! | Thank you!
+njih / ih | them | pron | gen./acc. of oni | Ne poznajem ih. | I don't know them.
+njima / im | (to) them | pron | dat. of oni | Reci im istinu. | Tell them the truth.
+sebe / se | oneself | pron | reflexive | Pazi na sebe. | Take care of yourself.
+naš / naša / naše | our | pron | | Ovo je naš grad. | This is our city.
+vaš / vaša / vaše | your (pl. / formal) | pron | | Je li ovo vaša torba? | Is this your bag?
+njezin / njezina / njezino | her (possessive) | pron | also njen | Njezin brat. | Her brother.
+njihov / njihova / njihovo | their | pron | | Njihova kuća. | Their house.
+čiji / čija / čije | whose | pron | | Čiji je ovo auto? | Whose car is this?
+itko | anyone | pron | | Je li itko ovdje? | Is anyone here?
+išta | anything | pron | | Trebaš li išta? | Do you need anything?
+ikad / ikada | ever | adv | | Jesi li ikad bio u Dubrovniku? | Have you ever been to Dubrovnik?
+nigdje | nowhere | adv | | Ne idem nigdje. | I'm not going anywhere.
+svugdje | everywhere | adv | | Tražio sam te svugdje. | I looked for you everywhere.
+svatko | everyone; each person | pron | | Svatko griješi. | Everyone makes mistakes.
+svi / sve | everyone; all | pron | plural of sav | Svi su došli. | Everyone came.
+oba / obje | both | num | obje with feminine nouns | Oba brata. | Both brothers.
+nijedan / nijedna / nijedno | none; not one | pron | | Nijedan problem. | Not a single problem.
+nečiji | someone's | pron | | To je nečija torba. | That's someone's bag.
+zar | really? (surprise particle) | part | | Zar ne? | Isn't it?
+jesi li / je li | is it? (question) | part | "Je li?" = Really? | Je li to istina? | Is that true?
+nije | is not | v-ipf | negative of je (biti) | Nije loše. | Not bad.
+nisam | I am not | v-ipf | negative of sam (biti) | Nisam gladan. | I'm not hungry.
+neću | I won't; I don't want to | v-ipf | negative of hoću (htjeti) | Neću ići. | I won't go.
+ćao / čao | hi; bye | intj | | Ćao, vidimo se! | Bye, see you!
+zdravo | hello | intj | | Zdravo, kako ste? | Hello, how are you?
+doviđenja | goodbye | intj | | Doviđenja i hvala! | Goodbye and thank you!
+dobrodošli | welcome | intj | | Dobrodošli u Hrvatsku! | Welcome to Croatia!
+izvoli / izvolite | here you are; go ahead | intj | izvolite = formal/pl. | Izvolite, vaša kava. | Here you are, your coffee.
+sretno | good luck | intj | | Sretno na ispitu! | Good luck on the exam!
+živjeli | cheers | intj | | Živjeli! | Cheers!
+oprosti / oprostite | sorry; excuse me | intj | oprostite = formal/pl. | Oprosti, nisam znao. | Sorry, I didn't know.
+pardon | sorry; pardon | intj | | Pardon, ne razumijem. | Sorry, I don't understand.
+u redu | OK; all right | phr | | U redu, idemo. | All right, let's go.
+ok / okej | OK | intj | | Okej, nema problema. | OK, no problem.
+naprimjer / na primjer | for example | adv | | Na primjer, Split. | For example, Split.
+primjer | example | n-m | | Daj mi primjer. | Give me an example.
+nažalost | unfortunately | adv | | Nažalost, ne mogu. | Unfortunately, I can't.
+srećom | luckily | adv | | Srećom, nitko nije ozlijeđen. | Luckily, nobody was hurt.
+inače | otherwise; usually | adv | | Požuri, inače ćemo zakasniti. | Hurry, otherwise we'll be late.
+ipak | still; after all; anyway | adv | | Ipak ću doći. | I'll come anyway.
+uopće | at all | adv | | Uopće ne znam. | I don't know at all.
+barem / bar | at least | adv | | Barem pokušaj. | At least try.
+valjda | I suppose; probably | adv | | Valjda će doći. | I suppose he'll come.
+također | also; too | adv | | I ja također. | Me too.
+čim | as soon as | conj | | Nazovi me čim stigneš. | Call me as soon as you arrive.
+iako | although | conj | | Iako je kasno, idem. | Although it's late, I'm going.
+kao da | as if | conj | | Kao da me ne čuješ. | As if you can't hear me.
+jedino | only; the only thing | adv | | Jedino to želim. | That's the only thing I want.
+sasvim | quite; completely | adv | | Sasvim dobro. | Quite good.
+otprilike | approximately | adv | | Otprilike sat vremena. | About an hour.
+odjednom | suddenly | adv | | Odjednom je počela kiša. | Suddenly it started to rain.
+polako | slowly; take it easy | adv | | Polako, nema žurbe. | Take it easy, there's no rush.
+tiho | quietly | adv | | Govori tiše. | Speak more quietly.
+glasno | loudly | adv | | Glazba je preglasna. | The music is too loud.
+dogovor | agreement; deal | n-m | "Dogovoreno!" = Deal! | Imamo dogovor. | We have a deal.
+sastanak | meeting | n-m | gen. sastanka | Imam sastanak u deset. | I have a meeting at ten.
+posjet | visit | n-m | | Hvala na posjetu. | Thanks for the visit.
+putovanje | journey; trip | n-n | | Kako je bilo putovanje? | How was the trip?
+let | flight | n-m | | Let kasni sat vremena. | The flight is an hour late.
+prtljaga | luggage | n-f | | Gdje je moja prtljaga? | Where's my luggage?
+torba | bag | n-f | | Zaboravio sam torbu. | I forgot my bag.
+odjeća | clothes | n-f | collective | Nova odjeća. | New clothes.
+cipele | shoes | n-pl | sg. cipela | Nove cipele. | New shoes.
+jakna | jacket | n-f | | Uzmi jaknu, hladno je. | Take a jacket, it's cold.
+majica | T-shirt | n-f | | Bijela majica. | A white T-shirt.
+hlače | trousers | n-pl | plural-only | Plave hlače. | Blue trousers.
+haljina | dress | n-f | | Lijepa haljina! | Nice dress!
+kapa | cap; hat | n-f | | Stavi kapu. | Put on a hat.
+naočale | glasses | n-pl | plural-only; sunčane naočale = sunglasses | Gdje su mi naočale? | Where are my glasses?
+kišobran | umbrella | n-m | | Ponesi kišobran. | Bring an umbrella.
+čaša | glass (for drinking) | n-f | | Čaša vina. | A glass of wine.
+šalica | cup; mug | n-f | | Šalica čaja. | A cup of tea.
+boca | bottle | n-f | | Boca vode. | A bottle of water.
+tanjur | plate | n-m | | Prazan tanjur. | An empty plate.
+nož | knife | n-m | | Oštar nož. | A sharp knife.
+vilica | fork | n-f | | Nož i vilica. | Knife and fork.
+žlica | spoon | n-f | | Žlica šećera. | A spoonful of sugar.
+juha | soup | n-f | | Pileća juha. | Chicken soup.
+salata | salad | n-f | | Miješana salata. | Mixed salad.
+kolač | cake; pastry | n-m | | Domaći kolač. | Homemade cake.
+sladoled | ice cream | n-m | | Dvije kuglice sladoleda. | Two scoops of ice cream.
+piletina | chicken (meat) | n-f | | Piletina s rižom. | Chicken with rice.
+krumpir | potato | n-m | | Pečeni krumpir. | Roast potatoes.
+riža | rice | n-f | | Riža s povrćem. | Rice with vegetables.
+ulje | oil | n-n | | Maslinovo ulje. | Olive oil.
+maslina | olive | n-f | | Volim masline. | I love olives.
+rajčica | tomato | n-f | | Salata od rajčica. | Tomato salad.
+luk | onion | n-m | "češnjak" = garlic | Bez luka, molim. | Without onion, please.
+jelo | dish; meal | n-n | | Koje je vaše najbolje jelo? | What's your best dish?
+jelovnik | menu | n-m | | Jelovnik, molim. | The menu, please.
+konobar / konobarica | waiter; waitress | n-m | f. konobarica | Konobar, račun molim! | Waiter, the bill please!
+sok | juice | n-m | | Sok od naranče. | Orange juice.
+naranča | orange | n-f | | Sok od naranče. | Orange juice.
+banana | banana | n-f | | Jedna banana. | One banana.
+grožđe | grapes | n-n | collective | Slatko grožđe. | Sweet grapes.
+novine | newspaper | n-pl | plural-only | Čitam novine. | I'm reading the newspaper.
+vijest | (piece of) news | n-f | pl. vijesti = the news | Imam dobre vijesti. | I have good news.
+televizija | television | n-f | | Gledam televiziju. | I'm watching TV.
+računalo | computer | n-n | | Radim na računalu. | I work on the computer.
+internet | internet | n-m | | Imate li internet? | Do you have internet?
+lozinka | password | n-f | | Koja je lozinka za Wi-Fi? | What's the Wi-Fi password?
+adresa | address | n-f | | Koja je tvoja adresa? | What's your address?
+kat | floor; storey | n-m | | Živim na trećem katu. | I live on the third floor.
+lift | lift; elevator | n-m | | Lift ne radi. | The lift isn't working.
+vrt | garden | n-m | | Sjedimo u vrtu. | We're sitting in the garden.
+balkon | balcony | n-m | | Soba s balkonom. | A room with a balcony.
+pogled | view; look | n-m | | Prekrasan pogled na more. | A beautiful sea view.
+trg | square (town) | n-m | | Nađimo se na trgu. | Let's meet in the square.
+luka | harbour; port | n-f | | Brodovi u luci. | Boats in the harbour.
+muzej | museum | n-m | | Muzej je zatvoren ponedjeljkom. | The museum is closed on Mondays.
+kino | cinema | n-n | | Idemo u kino? | Shall we go to the cinema?
+kazalište | theatre | n-n | | Narodno kazalište. | The National Theatre.
+banka | bank | n-f | | Gdje je najbliža banka? | Where's the nearest bank?
+bankomat | cash machine; ATM | n-m | | Treba mi bankomat. | I need an ATM.
+ljekarna | pharmacy | n-f | | Ljekarna je preko puta. | The pharmacy is across the road.
+pošta | post office; mail | n-f | | Idem na poštu. | I'm going to the post office.
+kartica | (bank) card | n-f | | Plaćam karticom. | I'm paying by card.
+gotovina | cash | n-f | | Samo gotovina. | Cash only.
+taksi | taxi | n-m | | Naruči taksi. | Order a taxi.
+bicikl | bicycle | n-m | | Idem biciklom. | I'm going by bike.
+smjer | direction | n-m | | U kojem smjeru? | In which direction?
+lijevo | (to the) left | adv | | Skrenite lijevo. | Turn left.
+desno | (to the) right | adv | | Pa desno. | Then right.
+ravno | straight on | adv | | Idite ravno. | Go straight on.
+preko puta | opposite; across the street | adv | | Kafić je preko puta. | The café is across the street.
+između | between | prep | + gen. | Između nas. | Between us.
+ispred | in front of | prep | + gen. | Čekam ispred hotela. | I'm waiting in front of the hotel.
+iza | behind | prep | + gen. | Iza kuće. | Behind the house.
+iznad | above | prep | + gen. | Iznad oblaka. | Above the clouds.
+ispod | under; below | prep | + gen. | Ispod stola. | Under the table.
+pored | beside; next to | prep | + gen. | Sjedni pored mene. | Sit next to me.
+pokraj | beside | prep | + gen. | Pokraj mora. | By the sea.
+unutar | inside (of) | prep | + gen. | Unutar grada. | Inside the city.
+izvan | outside (of) | prep | + gen. | Izvan grada. | Outside the city.
+među | among | prep | + instr. / + acc. | Među prijateljima. | Among friends.
+tijekom | during | prep | + gen. | Tijekom ljeta. | During the summer.
+umjesto | instead of | prep | + gen. | Čaj umjesto kave. | Tea instead of coffee.
+k / ka | towards | prep | + dat. | Idem k mami. | I'm going to mum's.
+radi | for the sake of | prep | + gen. | Radi sigurnosti. | For safety's sake.
+nikako | no way; by no means | adv | | Nikako ne mogu. | I just can't.
+svakako | certainly; by all means | adv | | Svakako dođi! | Definitely come!
+naime | namely; you see | adv | | Naime, nisam znao. | You see, I didn't know.
+zaista | indeed; really | adv | | Zaista mi je žao. | I'm really sorry.
+uskoro | soon | adv | | Vidimo se uskoro! | See you soon!
+nedavno | recently | adv | | Nedavno sam se preselio. | I moved recently.
+davno | long ago | adv | | To je bilo davno. | That was long ago.
+zauvijek | forever | adv | | Zauvijek zajedno. | Together forever.
+odavno | for a long time; long since | adv | | Odavno se znamo. | We've known each other for a long time.
+napokon | at last | adv | | Napokon vikend! | The weekend at last!
+jutros | this morning | adv | | Jutros sam ustao rano. | I got up early this morning.
+sinoć | last night | adv | | Sinoć smo bili vani. | We went out last night.
+noćas | tonight | adv | | Noćas će padati kiša. | It will rain tonight.
+prekosutra | the day after tomorrow | adv | | Dolazim prekosutra. | I'm coming the day after tomorrow.
+prekjučer | the day before yesterday | adv | | Stigao sam prekjučer. | I arrived the day before yesterday.
+dnevno | daily; per day | adv | | Dva puta dnevno. | Twice a day.
+sekunda | second | n-f | | Samo sekundu! | Just a second!
+sredina | middle | n-f | | U sredini sobe. | In the middle of the room.
+vrh | top; peak | n-m | | Na vrhu brda. | On top of the hill.
+dno | bottom | n-n | | Na dnu mora. | At the bottom of the sea.
+upomoć | help! | intj | | Upomoć! | Help!
+oprez | caution | n-m | "Oprez!" = Careful! | Oprez, mokar pod! | Caution, wet floor!
+pažnja | attention | n-f | | Pažnja, molim! | Attention, please!
+pazi | watch out; be careful | intj | imperative of paziti | Pazi! | Watch out!
+paziti | to be careful; to look after | v-ipf | "paziti na" = to look after | Pazi na djecu. | Look after the kids.
+požuriti | to hurry | v-pf | ipf. žuriti | Požuri, kasnimo! | Hurry up, we're late!
+žuriti | to hurry; to be in a hurry | v-ipf | "žuri mi se" = I'm in a hurry | Ne žuri. | Don't rush.
+kasniti | to be late | v-ipf | pf. zakasniti | Oprosti što kasnim. | Sorry I'm late.
+odmarati se | to rest | v-ipf | pf. odmoriti se | Vikendom se odmaram. | I rest at weekends.
+zarađivati | to earn | v-ipf | pf. zaraditi; present: zarađujem | Koliko zarađuješ? | How much do you earn?
+štedjeti | to save (money) | v-ipf | pf. uštedjeti | Štedim za auto. | I'm saving for a car.
+trošiti | to spend | v-ipf | pf. potrošiti | Previše trošiš. | You spend too much.
+posuditi | to lend; to borrow | v-pf | ipf. posuđivati | Možeš li mi posuditi olovku? | Can you lend me a pen?
+poslati | to send | v-pf | ipf. slati; present: pošaljem | Pošalji mi adresu. | Send me the address.
+primiti | to receive | v-pf | ipf. primati | Primio sam tvoje pismo. | I received your letter.
+čestitati | to congratulate | v-bi | "Čestitam!" = Congratulations! | Čestitam! | Congratulations!
+zahvaliti | to thank | v-pf | ipf. zahvaljivati | Želim ti zahvaliti. | I want to thank you.
+ispričati se | to apologise | v-pf | ipf. ispričavati se | Ispričavam se. | I apologise.
+složiti se | to agree | v-pf | ipf. slagati se (slažem se) | Slažem se s tobom. | I agree with you.
+dopustiti | to allow | v-pf | ipf. dopuštati | Dopustite mi. | Allow me.
+smjeti | to be allowed; may | v-ipf | present: smijem | Smijem li ući? | May I come in?
+uživati | to enjoy | v-ipf | present: uživam | Uživaj! | Enjoy!
+nastaviti | to continue | v-pf | ipf. nastavljati | Nastavi! | Carry on!
+ponoviti | to repeat | v-pf | ipf. ponavljati | Možete li ponoviti? | Could you repeat that?
+objasniti | to explain | v-pf | ipf. objašnjavati | Objasni mi. | Explain it to me.
+pokazati | to show | v-pf | ipf. pokazivati; present: pokažem | Pokaži mi. | Show me.
+odvesti | to take (someone somewhere) | v-pf | ipf. odvoditi; present: odvedem | Odvest ću te kući. | I'll take you home.
+pozvati | to invite; to call | v-pf | ipf. pozivati; present: pozovem | Pozvao me na večeru. | He invited me to dinner.
+spasiti | to save; to rescue | v-pf | ipf. spašavati | Spasio si mi život. | You saved my life.
+riješiti | to solve | v-pf | ipf. rješavati | Riješit ćemo to. | We'll sort it out.
+provjeriti | to check | v-pf | ipf. provjeravati | Provjeri još jednom. | Check once more.
+saznati | to find out | v-pf | ipf. saznavati | Moram saznati istinu. | I have to find out the truth.
+sakriti | to hide | v-pf | ipf. skrivati; present: sakrijem | Sakrij to! | Hide it!
+osjetiti | to feel; to sense | v-pf | ipf. osjećati | Osjetio sam miris kave. | I smelled the coffee.
+mirisati | to smell | v-ipf | present: miriše | Lijepo miriše! | It smells nice!
+boljeti | to hurt; to ache | v-ipf | "boli me..." = my ... hurts | Boli me zub. | I have a toothache.
+parkirati | to park | v-bi | | Gdje mogu parkirati? | Where can I park?
+skrenuti | to turn | v-pf | ipf. skretati; present: skrenem | Skreni desno. | Turn right.
+popiti | to drink (up) | v-pf | ipf. piti; present: popijem | Popij vodu. | Drink some water.
+pojesti | to eat (up) | v-pf | ipf. jesti; present: pojedem | Pojedi sve! | Eat it all up!
+naručiti | to order | v-pf | ipf. naručivati | Želite li naručiti? | Would you like to order?
+rezervirati | to book; to reserve | v-bi | | Rezervirao sam stol. | I booked a table.
+iznajmiti | to rent | v-pf | ipf. iznajmljivati | Iznajmili smo auto. | We rented a car.
+preseliti se | to move (house) | v-pf | ipf. seliti se | Preselili smo se u Zagreb. | We moved to Zagreb.
+roditi se | to be born | v-pf | | Rodio sam se u Osijeku. | I was born in Osijek.
+oženiti se | to marry (of a man) | v-pf | women: udati se | Oženio se prošle godine. | He got married last year.
+udati se | to marry (of a woman) | v-pf | present: udam se | Udala se za Talijana. | She married an Italian.
+vjenčanje | wedding | n-n | | Pozvani smo na vjenčanje. | We're invited to a wedding.
+poklon | gift; present | n-m | also dar | Ovo je poklon za tebe. | This is a present for you.
+dar | gift | n-m | | Dar od srca. | A gift from the heart.
+iznenađenje | surprise | n-n | | Kakvo iznenađenje! | What a surprise!
+zadovoljstvo | pleasure | n-n | "Sa zadovoljstvom" = With pleasure | Zadovoljstvo je moje. | The pleasure is mine.
+smijeh | laughter | n-m | | Smijeh je najbolji lijek. | Laughter is the best medicine.
+strah | fear | n-m | "strah me je" = I'm scared | Nemoj imati strah. | Don't be afraid.
+bol | pain | n-f | | Imam bolove u leđima. | I have back pain.
+lijek | medicine; cure | n-m | | Uzmi lijek. | Take the medicine.
+san | sleep; dream | n-m | gen. sna | Imao sam čudan san. | I had a strange dream.
+sanjati | to dream | v-ipf | | Sanjao sam tebe. | I dreamt about you.
+smrt | death | n-f | | Pitanje života i smrti. | A matter of life and death.
+rat | war | n-m | | Rat je završio. | The war is over.
+mir | peace; quiet | n-m | "Ostavi me na miru" = Leave me alone | Treba mi mira. | I need some peace.
+priča | story | n-f | | Duga priča. | Long story.
+pravilo | rule | n-n | | Takva su pravila. | Those are the rules.
+zakon | law | n-m | | To je protiv zakona. | That's against the law.
+greška | mistake | n-f | | Moja greška. | My mistake.
+laž | lie | n-f | | To je laž! | That's a lie!
+lagati | to lie (tell lies) | v-ipf | present: lažem; pf. slagati | Ne laži mi. | Don't lie to me.
+tajna | secret | n-f | | Možeš li čuvati tajnu? | Can you keep a secret?
+sigurnost | safety; security | n-f | | Sigurnost je na prvom mjestu. | Safety comes first.
+opasnost | danger | n-f | | U opasnosti smo. | We're in danger.
+nesreća | accident; misfortune | n-f | | Dogodila se nesreća. | There's been an accident.
+izbor | choice | n-m | | Nemam izbora. | I have no choice.
+odluka | decision | n-f | | Teška odluka. | A difficult decision.
+mišljenje | opinion | n-n | | Po mom mišljenju... | In my opinion...
+osjećaj | feeling | n-m | | Imam loš osjećaj. | I have a bad feeling.
+nada | hope | n-f | | Uvijek ima nade. | There's always hope.
+brige | worries | n-pl | sg. briga; "Nije me briga" = I don't care | Nije me briga. | I don't care.
+sram | shame | n-m | "Sram te bilo!" = Shame on you! | Sram me je. | I'm ashamed.
+snaga | strength | n-f | | Nemam snage. | I have no strength.
+moć | power | n-f | | Znanje je moć. | Knowledge is power.
+glas | voice; vote | n-m | | Imaš lijep glas. | You have a beautiful voice.
+zvuk | sound | n-m | | Čuješ li taj zvuk? | Do you hear that sound?
+svjetlo | light | n-n | | Upali svjetlo. | Turn on the light.
+mrak | darkness | n-m | | Vani je mrak. | It's dark outside.
+miris | smell; scent | n-m | | Miris mora. | The smell of the sea.
+okus | taste | n-m | | Odličan okus! | Great taste!
+oblik | shape; form | n-m | | U obliku srca. | In the shape of a heart.
+veličina | size | n-f | | Koja veličina? | What size?
+komad | piece | n-m | | Komad torte. | A piece of cake.
+kutija | box | n-f | | Velika kutija. | A big box.
+stvarnost | reality | n-f | | U stvarnosti... | In reality...
+budućnost | future | n-f | | U budućnosti. | In the future.
+prošlost | past | n-f | | To je prošlost. | That's in the past.
+povijest | history | n-f | | Hrvatska povijest. | Croatian history.
+kultura | culture | n-f | | Volim hrvatsku kulturu. | I love Croatian culture.
+narod | people; nation | n-m | | Hrvatski narod. | The Croatian people.
+država | state; country | n-f | | Granica između dviju država. | The border between two countries.
+granica | border; limit | n-f | | Čekamo na granici. | We're waiting at the border.
+vlada | government | n-f | | Nova vlada. | The new government.
+predsjednik | president | n-m | | Predsjednik države. | The head of state.
+plaća | salary; pay | n-f | | Plaća je mala. | The pay is low.
+tvrtka | company; firm | n-f | | Radim u maloj tvrtki. | I work in a small company.
+kolega / kolegica | colleague | n-m | f. kolegica | Ovo je moj kolega. | This is my colleague.
+radnik | worker | n-m | | Radnici su na pauzi. | The workers are on a break.
+učitelj / učiteljica | teacher | n-m | f. učiteljica | Ona je učiteljica. | She's a teacher.
+student / studentica | student | n-m | f. studentica | Ja sam student. | I'm a student.
+fakultet | university faculty; college | n-m | | Idem na fakultet. | I go to university.
+ispit | exam | n-m | | Sutra imam ispit. | I have an exam tomorrow.
+lekcija | lesson | n-f | | Prva lekcija. | The first lesson.
+zadatak | task; assignment | n-m | gen. zadatka | Težak zadatak. | A difficult task.
+zadaća | homework | n-f | | Jesi li napisao zadaću? | Have you done your homework?
+iskustvo | experience | n-n | | Nemam iskustva. | I don't have experience.
+znanje | knowledge | n-n | | Znanje jezika. | Language skills.
+pauza | break; pause | n-f | | Idemo na pauzu. | Let's take a break.
+sport | sport | n-m | | Koji sport voliš? | Which sport do you like?
+nogomet | football | n-m | | Gledamo nogomet. | We're watching football.
+utakmica | match; game | n-f | | Utakmica počinje u osam. | The match starts at eight.
+tim / ekipa | team; crew | n-m | ekipa (f) = crew, gang | Naša ekipa. | Our crew.
+pobjeda | victory; win | n-f | | Velika pobjeda! | A great victory!
+leđa | back (body) | n-pl | plural-only | Bole me leđa. | My back hurts.
+zub | tooth | n-m | pl. zubi | Boli me zub. | I have a toothache.
+uho | ear | n-n | pl. uši | Boli me uho. | My ear hurts.
+nos | nose | n-m | | Curi mi nos. | My nose is running.
+prst | finger; toe | n-m | | Porezao sam prst. | I cut my finger.
+trbuh | belly; stomach | n-m | | Boli me trbuh. | I have a stomachache.
+koža | skin; leather | n-f | | Kožna jakna. | A leather jacket.
+zubar | dentist | n-m | | Moram ići zubaru. | I have to go to the dentist.
+prehlada | cold (illness) | n-f | | Imam prehladu. | I have a cold.
+temperatura | temperature; fever | n-f | | Imam temperaturu. | I have a fever.
+toplo | warm (it is) | adv | | Toplo je. | It's warm.
+hladno | cold (it is) | adv | "Hladno mi je" = I'm cold | Hladno mi je. | I'm cold.
+vruće | hot (it is) | adv | "Vruće mi je" = I'm hot | Danas je jako vruće. | It's very hot today.
+lijepo vrijeme | nice weather | phr | | Kakvo lijepo vrijeme! | What lovely weather!
+oblak | cloud | n-m | | Nema ni oblaka. | There isn't a cloud.
+oluja | storm | n-f | | Dolazi oluja. | A storm is coming.
+zvijezda | star | n-f | | Pogledaj zvijezde! | Look at the stars!
+životinja | animal | n-f | | Volim životinje. | I love animals.
+ptica | bird | n-f | | Ptice pjevaju. | The birds are singing.
+konj | horse | n-m | | Jahati konja. | To ride a horse.
+krava | cow | n-f | | Krave na livadi. | Cows in the meadow.
+šuma | forest | n-f | | Šetnja kroz šumu. | A walk through the forest.
+brdo | hill | n-n | | Kuća na brdu. | A house on the hill.
+jezero | lake | n-n | | Plitvička jezera. | The Plitvice Lakes.
+kamen | stone | n-m | | Kamena kuća. | A stone house.
+pijesak | sand | n-m | gen. pijeska | Plaža s pijeskom. | A sandy beach.
+obala | coast; shore | n-f | | Jadranska obala. | The Adriatic coast.
+val | wave | n-m | | Veliki valovi. | Big waves.
+jedanaest | eleven | num | | Jedanaest sati. | Eleven o'clock.
+dvanaest | twelve | num | | Dvanaest mjeseci. | Twelve months.
+petnaest | fifteen | num | | Petnaest minuta. | Fifteen minutes.
+trideset | thirty | num | | Trideset stupnjeva. | Thirty degrees.
+četrdeset | forty | num | | Četrdeset godina. | Forty years.
+pedeset | fifty | num | | Pedeset eura. | Fifty euros.
+milijun | million | num | | Milijun ljudi. | A million people.
+treći / treća / treće | third | num | | Treći kat. | The third floor.
+četvrti / četvrta / četvrto | fourth | num | | Četvrti put. | The fourth time.
+dvoje | two (people, mixed group) | num | collective numeral | Stol za dvoje. | A table for two.
+dvaput / dva puta | twice | adv | | Dvaput tjedno. | Twice a week.
+posto | percent | n-m | | Sto posto! | A hundred percent!
+manje | less; fewer | adv | | Manje šećera. | Less sugar.
+najviše | the most | adv | | Najviše volim ljeto. | I like summer most of all.
+najmanje | the least | adv | | Najmanje pet. | At least five.
+cijelo vrijeme | all the time; the whole time | phr | | Cijelo vrijeme si bio u pravu. | You were right the whole time.
+svaki put | every time | phr | | Svaki put isto. | The same every time.
+sljedeći put | next time | phr | | Sljedeći put ja plaćam. | Next time I'm paying.
+na vrijeme | on time | phr | | Stigli smo na vrijeme. | We arrived on time.
+zbilja | really; truly | adv | | Zbilja? | Really?
+očito | obviously | adv | | Očito je. | It's obvious.
+naročito / posebno | especially | adv | | Posebno ljeti. | Especially in summer.
+uglavnom | mostly; mainly | adv | | Uglavnom radim od kuće. | I mostly work from home.
+jednostavno | simply | adv | | Jednostavno ne znam. | I simply don't know.
+iskreno | honestly | adv | | Iskreno, ne sviđa mi se. | Honestly, I don't like it.
+nekako | somehow | adv | | Nekako ćemo uspjeti. | We'll manage somehow.
+bilo što | anything (at all) | pron | | Reci bilo što. | Say anything.
+bilo tko | anyone (at all) | pron | | Bilo tko može to napraviti. | Anyone can do that.
+nešto drugo | something else | phr | | Želiš li nešto drugo? | Do you want something else?
+mnogi / mnoge / mnoga | many | pron | | Mnogi ljudi to misle. | Many people think so.
+uspjeti | to succeed; to manage | v-pf | ipf. uspijevati; present: uspijem | Uspjeli smo! | We made it!
+pokušavati | to be trying | v-ipf | pf. pokušati | Pokušavam spavati. | I'm trying to sleep.
+dopadati se | to like (please) | v-ipf | pf. dopasti se; synonym of sviđati se | Dopada mi se. | I like it.
+smetati | to bother | v-ipf | "Smeta li vam...?" = Do you mind...? | Smeta li ti glazba? | Does the music bother you?
+zanimati | to interest | v-ipf | "Zanima me" = I'm interested | Zanima me povijest. | I'm interested in history.
+ovisiti | to depend | v-ipf | "Ovisi" = It depends | Ovisi o vremenu. | It depends on the weather.
+pripadati | to belong | v-ipf | | Ovo pripada meni. | This belongs to me.
+nalaziti se | to be located; to meet | v-ipf | pf. naći se | Gdje se nalazi hotel? | Where is the hotel located?
+vidjeti se | to see each other | v-bi | "Vidimo se!" = See you! | Vidimo se uskoro! | See you soon!
+čuti se | to hear from each other | v-bi | "Čujemo se!" = Talk soon! | Čujemo se sutra. | Talk to you tomorrow.
+javiti se | to get in touch; to answer (phone) | v-pf | ipf. javljati se | Javi se kad stigneš. | Let me know when you arrive.
+zvoniti | to ring | v-ipf | pf. zazvoniti | Telefon zvoni. | The phone is ringing.
+slikati | to take photos | v-ipf | pf. uslikati | Možete li nas slikati? | Could you take a photo of us?
+šetati | to walk; to stroll | v-ipf | pf. prošetati | Šetamo uz more. | We're walking along the sea.
+penjati se | to climb | v-ipf | present: penjem se; pf. popeti se | Penjemo se na brdo. | We're climbing the hill.
+pasti | to fall | v-pf | ipf. padati; present: padnem | Pazi da ne padneš! | Careful you don't fall!
+padati | to fall | v-ipf | "pada kiša" = it's raining | Pada snijeg. | It's snowing.
+baciti | to throw | v-pf | ipf. bacati | Baci loptu! | Throw the ball!
+uhvatiti | to catch | v-pf | ipf. hvatati | Uhvati! | Catch!
+držati | to hold; to keep | v-ipf | present: držim | Drži me za ruku. | Hold my hand.
+dirati | to touch | v-ipf | pf. dirnuti | Ne diraj to! | Don't touch that!
+gurati | to push | v-ipf | pf. gurnuti | Gurajte! | Push!
+vući | to pull | v-ipf | present: vučem | Vucite! | Pull!
+popraviti | to fix; to repair | v-pf | ipf. popravljati | Možeš li to popraviti? | Can you fix that?
+slomiti | to break | v-pf | ipf. lomiti | Slomio sam ruku. | I broke my arm.
+upaliti | to switch on; to light | v-pf | ipf. paliti | Upali svjetlo. | Turn on the light.
+ugasiti | to switch off; to put out | v-pf | ipf. gasiti | Ugasi televizor. | Turn off the TV.
+graditi | to build | v-ipf | pf. izgraditi | Grade novu cestu. | They're building a new road.
+crtati | to draw | v-ipf | pf. nacrtati | Djeca crtaju. | The kids are drawing.
+umoriti se | to get tired | v-pf | ipf. umarati se | Umorio sam se. | I've got tired.
+probuditi se | to wake up | v-pf | ipf. buditi se | Probudio sam se rano. | I woke up early.
+spremiti | to prepare; to put away; to save | v-pf | ipf. spremati | Spremi stvari. | Put your things away.
+pripremiti | to prepare | v-pf | ipf. pripremati | Pripremila je večeru. | She prepared dinner.
+ići van | to go out | phr | | Idemo van večeras? | Shall we go out tonight?
+ljubazan / ljubazna / ljubazno | kind; friendly | adj | | Vrlo ste ljubazni. | You're very kind.
+zgodan / zgodna / zgodno | good-looking; handy | adj | | Zgodan dečko. | A good-looking guy.
+sladak / slatka / slatko | sweet; cute | adj | | Kako slatko! | How cute!
+gorak / gorka / gorko | bitter | adj | | Gorka kava. | Bitter coffee.
+slan / slana / slano | salty | adj | | Juha je preslana. | The soup is too salty.
+svjež / svježa / svježe | fresh | adj | | Svježa riba. | Fresh fish.
+ukusan / ukusna / ukusno | tasty; delicious | adj | | Ovo je jako ukusno! | This is delicious!
+domaći / domaća / domaće | homemade; local | adj | | Domaće vino. | Homemade wine.
+otvoren / otvorena / otvoreno | open | adj | | Je li trgovina otvorena? | Is the shop open?
+zatvoren / zatvorena / zatvoreno | closed | adj | | Muzej je zatvoren. | The museum is closed.
+potreban / potrebna / potrebno | necessary; needed | adj | | Potrebna mi je pomoć. | I need help.
+moguć / moguća / moguće | possible | adj | | Sve je moguće. | Anything is possible.
+nemoguć / nemoguća / nemoguće | impossible | adj | | To je nemoguće! | That's impossible!
+blizak / bliska / blisko | close; near | adj | | Bliski prijatelji. | Close friends.
+dalek / daleka / daleko | far; distant | adj | | Daleka zemlja. | A distant land.
+mirno | calmly; quiet | adv | | Ovdje je mirno. | It's quiet here.
+miran / mirna / mirno | calm; quiet | adj | | Miran život. | A quiet life.
+nervozan / nervozna / nervozno | nervous | adj | | Malo sam nervozan. | I'm a bit nervous.
+zabrinut / zabrinuta / zabrinuto | worried | adj | | Zabrinut sam za tebe. | I'm worried about you.
+ponosan / ponosna / ponosno | proud | adj | | Ponosan sam na tebe. | I'm proud of you.
+zaljubljen / zaljubljena / zaljubljeno | in love | adj | | Zaljubljen sam. | I'm in love.
+omiljen / omiljena / omiljeno | favourite | adj | | Moje omiljeno jelo. | My favourite dish.
+poznat / poznata / poznato | famous; familiar | adj | | Poznat glumac. | A famous actor.
+strani / strana / strano | foreign | adj | | Strani jezik. | A foreign language.
+stranac | foreigner; stranger | n-m | gen. stranca | Ja sam stranac. | I'm a foreigner.
+gost | guest | n-m | | Dragi gosti. | Dear guests.
+domaćin | host | n-m | | Hvala domaćinu! | Thanks to the host!
+grupa | group | n-f | | Velika grupa turista. | A large group of tourists.
+turist | tourist | n-m | | Ljeti je puno turista. | There are lots of tourists in summer.
+gužva | crowd; traffic jam | n-f | | Velika gužva na cesti. | Heavy traffic on the road.
+dozvola | permit; licence | n-f | vozačka dozvola = driving licence | Vozačka dozvola, molim. | Driving licence, please.
+putovnica | passport | n-f | | Vaša putovnica, molim. | Your passport, please.
+osobna iskaznica | ID card | n-f | | Imate li osobnu iskaznicu? | Do you have an ID card?
+pomalo | a bit; little by little | adv | | Pomalo sam umoran. | I'm a bit tired.
+dobrodošao / dobrodošla | welcome (adj.) | adj | | Uvijek si dobrodošao. | You're always welcome.
+nema na čemu | you're welcome | phr | | — Hvala! — Nema na čemu. | — Thanks! — You're welcome.
+kako se kaže | how do you say | phr | | Kako se kaže "thank you" na hrvatskom? | How do you say "thank you" in Croatian?
+ne razumijem | I don't understand | phr | | Oprostite, ne razumijem. | Sorry, I don't understand.
+govorite li engleski | do you speak English? | phr | | Govorite li engleski? | Do you speak English?
+koliko je sati | what time is it? | phr | | Oprostite, koliko je sati? | Excuse me, what time is it?
+laku noć | good night | phr | | Laku noć i lijepo spavaj. | Good night and sleep well.
+dobar dan | good day; hello | phr | | Dobar dan, izvolite? | Hello, can I help you?
+dobro jutro | good morning | phr | | Dobro jutro, kako ste spavali? | Good morning, how did you sleep?
+dobra večer | good evening | phr | | Dobra večer svima! | Good evening, everyone!
+vidimo se | see you | phr | | Vidimo se kasnije! | See you later!
+nema veze | never mind; it doesn't matter | phr | | Nema veze, idemo. | Never mind, let's go.
+nema problema | no problem | phr | | Naravno, nema problema. | Sure, no problem.
