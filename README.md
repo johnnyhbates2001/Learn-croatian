@@ -37,7 +37,7 @@ Connect the GitHub repo to the Worker with **Workers Builds** (Worker → Settin
 | Deploy command | `npm run deploy` |
 | Production branch | `main` |
 
-Every push to the production branch then installs dependencies, builds the app, applies any new database migrations to `learn-croatian-db` and deploys. The database is found by name, so `wrangler.jsonc` has no ID to fill in.
+Every push to the production branch then installs dependencies, builds the app, applies any new database migrations to `learn-croatian-db` and deploys.
 
 You set one thing by hand, and only once: the sync password. Go to Worker → **Settings → Variables and Secrets → Add**, choose type **Secret**, name it `SYNC_TOKEN`, and use any long random string. Deploys don't touch secrets.
 

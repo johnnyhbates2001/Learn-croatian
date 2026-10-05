@@ -12,8 +12,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      // Wrangler looks the database up by name, so no database_id is needed.
       "database_name": "learn-croatian-db",
+      "database_id": "8f6b07c0-46f1-4e27-9d77-54eb81683a18",
       "migrations_dir": "migrations"
     }
   ]
