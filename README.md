@@ -27,27 +27,21 @@ An installable PWA (works offline on iPhone) for learning Croatian vocabulary wi
   - You can also export a JSON backup and import it again.
 - **Flag a word as wrong** from the Words tab, then copy the flagged list from Settings, so mistakes in the word list are easy to fix.
 
-## Deploying to Cloudflare
+## Deploying to Cloudflare (no commands needed)
 
-1. Install dependencies and log in to Cloudflare:
-   ```sh
-   npm install
-   npx wrangler login
-   ```
-2. Create the database, or use the one you already made:
-   ```sh
-   npx wrangler d1 create learn-croatian-db
-   ```
-   Copy the `database_id` it prints (or find it in the dashboard under Storage & Databases → D1) into `wrangler.jsonc`.
-3. Set the sync password. Pick any long random string; you'll type it into the app once:
-   ```sh
-   npx wrangler secret put SYNC_TOKEN
-   ```
-4. Build, apply the database migrations and deploy:
-   ```sh
-   npm run deploy
-   ```
-   If you'd rather deploy from GitHub with **Workers Builds**, set the deploy command to `npm run deploy` and add `SYNC_TOKEN` as a secret on the Worker.
+Connect the GitHub repo to the Worker with **Workers Builds** (Worker → Settings → Build → Connect). Use these settings:
+
+| Setting | Value |
+| --- | --- |
+| Build command | *(leave empty)* |
+| Deploy command | `npm run deploy` |
+| Production branch | `main` |
+
+Every push to the production branch then installs dependencies, builds the app, applies any new database migrations to `learn-croatian-db` and deploys. The database is found by name, so `wrangler.jsonc` has no ID to fill in.
+
+You set one thing by hand, and only once: the sync password. Go to Worker → **Settings → Variables and Secrets → Add**, choose type **Secret**, name it `SYNC_TOKEN`, and use any long random string. Deploys don't touch secrets.
+
+The Worker's name in Cloudflare must match `"name"` in `wrangler.jsonc` (`learn-croatian`).
 
 ### Installing on iPhone
 

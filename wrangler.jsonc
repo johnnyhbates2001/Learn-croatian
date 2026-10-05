@@ -12,12 +12,11 @@
   "d1_databases": [
     {
       "binding": "DB",
+      // Wrangler looks the database up by name, so no database_id is needed.
       "database_name": "learn-croatian-db",
-      // Paste the id printed by `npx wrangler d1 create learn-croatian-db`
-      // (or shown in the Cloudflare dashboard under Storage & Databases → D1).
-      "database_id": "00000000-0000-0000-0000-000000000000",
       "migrations_dir": "migrations"
     }
   ]
-  // Secret (not stored here): SYNC_TOKEN — set with `npx wrangler secret put SYNC_TOKEN`.
+  // Secret (not stored here): SYNC_TOKEN — add it in the dashboard under
+  // Worker → Settings → Variables and Secrets (type: Secret).
 }
