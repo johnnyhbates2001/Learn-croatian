@@ -127,6 +127,7 @@ export function Settings() {
         <Stepper label="New words per day" value={s.newPerDay} options={[5, 10, 15, 20, 30]} onChange={(v) => set({ newPerDay: v })} />
         <Stepper label="Daily XP goal" value={s.dailyGoal} options={[50, 100, 150, 250]} onChange={(v) => set({ dailyGoal: v })} />
         <Toggle label="Type answers" hint="Type the Croatian word on English → Croatian cards. Off = flip and self-grade." value={s.typing} onChange={(v) => set({ typing: v })} />
+        <Toggle label="Multiple choice" hint="Pick the meaning from 4 options while a word is still new to you." value={s.choice} onChange={(v) => set({ choice: v })} />
       </section>
 
       <section class="card">
@@ -142,6 +143,9 @@ export function Settings() {
             Test
           </button>
         </div>
+        {voiceReady && (
+          <p class="muted small">No sound? Check that your phone isn’t on silent and the media volume is up, then tap Test.</p>
+        )}
         {!voiceReady && (
           <p class="muted small">
             On iPhone: Settings → Accessibility → Spoken Content → Voices → Croatian, download “Lana”, then restart the app.

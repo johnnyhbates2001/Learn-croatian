@@ -12,9 +12,11 @@ export interface Settings {
   autoplay: boolean;
   /** Occasionally show recognition cards as audio-only listening drills. */
   listening: boolean;
+  /** Pick the meaning from 4 options while a word is still being learned. */
+  choice: boolean;
 }
 
-export const DEFAULT_SETTINGS: Settings = { newPerDay: 10, dailyGoal: 100, typing: true, autoplay: true, listening: true };
+export const DEFAULT_SETTINGS: Settings = { newPerDay: 10, dailyGoal: 100, typing: true, autoplay: true, listening: true, choice: true };
 
 export const getSettings = (): Settings => ({ ...DEFAULT_SETTINGS, ...get<Partial<Settings>>('m:settings') });
 export const saveSettings = (s: Partial<Settings>) => put('m:settings', { ...getSettings(), ...s });

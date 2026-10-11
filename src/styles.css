@@ -295,3 +295,16 @@ code { font-size: 0.9em; background: var(--surface-2); padding: 1px 5px; border-
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* ---------- Multiple choice ---------- */
+.choices-wrap { display: flex; flex-direction: column; align-items: center; }
+.choices { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; width: 100%; }
+.choice {
+  position: relative; background: var(--surface); color: var(--text); border: 2px solid var(--border); border-radius: 14px;
+  padding: 16px 10px; min-height: 64px; font-size: 16px; font-weight: 600; line-height: 1.25; overflow-wrap: anywhere; transition: transform .1s;
+}
+.choice:active { transform: scale(.97); border-color: var(--blue); }
+.choice-key { position: absolute; top: 5px; left: 8px; font-size: 11px; color: var(--muted); font-weight: 700; }
+.btn.continue { color: #fff; border: 0; }
+.btn.continue.right { background: var(--good); }
+.btn.continue.wrong { background: var(--bad); }

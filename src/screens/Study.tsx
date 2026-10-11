@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import { applyGrade, buildQueue, type QueueItem } from '../lib/session';
-import { getCard, getDay, getSettings } from '../lib/progress';
+import { getCard, getDay, getSettings, type Settings } from '../lib/progress';
+import { choicesFor } from '../lib/choices';
 import { GRADES, newCard, previewIntervals, Rating, State, type Grade } from '../lib/srs';
 import { checkAnswer, type AnswerResult } from '../lib/answer';
 import { hasCroatianVoice, speak } from '../lib/speech';
@@ -14,7 +15,10 @@ const GRADE_CLASS: Record<Grade, string> = { [Rating.Again]: 'again', [Rating.Ha
 const SUGGESTED: Record<AnswerResult, Grade> = { correct: Rating.Good, accents: Rating.Hard, typo: Rating.Hard, wrong: Rating.Again };
 const LETTERS = ['č', 'ć', 'đ', 'š', 'ž'];
 
-type Mode = 'intro' | 'recognize' | 'listen' | 'recall-type' | 'recall-flip';
+type Mode = 'intro' | 'recognize' | 'listen' | 'choose' | 'recall-type' | 'recall-flip';
+
+/** A correct multiple-choice answer slower than this (after the options appear) is graded Hard. */
+const SLOW_CHOICE_MS = 6000;
 
 interface Stats {
   reviews: number;
@@ -29,11 +33,16 @@ interface Stats {
   startedAt: number;
 }
 
-function pickMode(item: QueueItem, listening: boolean, typing: boolean): Mode {
-  if (item.dir === 'p') return typing ? 'recall-type' : 'recall-flip';
+function pickMode(item: QueueItem, s: Settings): Mode {
+  if (item.dir === 'p') return s.typing ? 'recall-type' : 'recall-flip';
   if (item.isNew) return 'intro';
   const card = getCard(item.wordId, 'r');
-  if (listening && hasCroatianVoice() && card?.state === State.Review && Math.random() < 0.3) return 'listen';
+  // Words still being learned get multiple choice: a gentler step than recalling from scratch.
+  if (s.choice && (card?.state === State.Learning || card?.state === State.Relearning)) return 'choose';
+  if (card?.state !== State.Review) return 'recognize';
+  const r = Math.random();
+  if (s.listening && hasCroatianVoice() && r < 0.3) return 'listen';
+  if (s.choice && r > 0.85) return 'choose';
   return 'recognize';
 }
 
@@ -49,6 +58,10 @@ export function Study({ extraNew, onExit }: { extraNew: number; onExit: () => vo
   const [typed, setTyped] = useState('');
   const [result, setResult] = useState<AnswerResult | null>(null);
   const [showText, setShowText] = useState(false);
+  /** Multiple choice: options are visible, and the option tapped (null = "don't know"). */
+  const [optionsShown, setOptionsShown] = useState(false);
+  const [picked, setPicked] = useState<Word | null>(null);
+  const optionsAt = useRef(0);
   const [floater, setFloater] = useState<{ id: number; text: string } | null>(null);
   const [finished, setFinished] = useState(queue.length === 0);
   const [unlocked, setUnlocked] = useState<string[]>([]);
@@ -57,13 +70,15 @@ export function Study({ extraNew, onExit }: { extraNew: number; onExit: () => vo
 
   const item = queue[0];
   const word: Word | undefined = item && WORD_BY_ID.get(item.wordId);
-  const mode = useMemo(() => (item ? pickMode(item, settings.listening, settings.typing) : 'recognize'), [item, step]);
+  const mode = useMemo(() => (item ? pickMode(item, settings) : 'recognize'), [item, step]);
+  const options = useMemo(() => (word && mode === 'choose' ? choicesFor(word) : []), [mode, word, step]);
+  const pickedRight = !!word && picked?.id === word.id;
   const showBack = revealed || mode === 'intro';
 
   // Auto-play audio when a Croatian prompt (or answer) appears.
   useEffect(() => {
     if (!word || !settings.autoplay) return;
-    if (mode === 'recognize' || mode === 'intro' || mode === 'listen') speak(speakable(word.hr));
+    if (mode === 'recognize' || mode === 'intro' || mode === 'listen' || mode === 'choose') speak(speakable(word.hr));
   }, [word, mode, step]);
   useEffect(() => {
     if (word && revealed && settings.autoplay && (mode === 'recall-type' || mode === 'recall-flip')) speak(speakable(word.hr));
@@ -117,8 +132,23 @@ export function Study({ extraNew, onExit }: { extraNew: number; onExit: () => vo
     setTyped('');
     setResult(null);
     setShowText(false);
+    setOptionsShown(false);
+    setPicked(null);
     if (!rest.length) finish(next);
   };
+
+  const showOptions = () => {
+    optionsAt.current = Date.now();
+    setOptionsShown(true);
+  };
+
+  const pick = (w: Word | null) => {
+    setPicked(w);
+    setRevealed(true);
+  };
+
+  /** Multiple choice grades itself: wrong → Again, slow → Hard, otherwise Good. */
+  const choiceGrade = (): Grade => (!pickedRight ? Rating.Again : Date.now() - optionsAt.current > SLOW_CHOICE_MS ? Rating.Hard : Rating.Good);
 
   const check = () => {
     if (!word) return;
@@ -131,6 +161,22 @@ export function Study({ extraNew, onExit }: { extraNew: number; onExit: () => vo
     const onKey = (e: KeyboardEvent) => {
       if (finished || !item) return;
       const inInput = e.target instanceof HTMLInputElement;
+      if (mode === 'choose') {
+        const n = Number(e.key);
+        if (showBack) {
+          if (e.key === ' ' || e.key === 'Enter') {
+            e.preventDefault();
+            grade(choiceGrade());
+          }
+        } else if (!optionsShown) {
+          if (e.key === ' ' || e.key === 'Enter') {
+            e.preventDefault();
+            showOptions();
+          }
+        } else if (n >= 1 && n <= options.length) pick(options[n - 1]);
+        else if (e.key === '0') pick(null);
+        return;
+      }
       if (!showBack) {
         if (e.key === 'Enter' && mode === 'recall-type') check();
         else if ((e.key === ' ' || e.key === 'Enter') && !inInput) {
@@ -221,7 +267,10 @@ export function Study({ extraNew, onExit }: { extraNew: number; onExit: () => vo
           {showBack && (
             <div class="answer">
               {item.dir === 'r' ? (
-                <div class="en-word sm">{word.en}</div>
+                <>
+                  {mode === 'choose' && <ChoiceFeedback right={pickedRight} picked={picked} />}
+                  <div class="en-word sm">{word.en}</div>
+                </>
               ) : (
                 <>
                   {result && <Feedback result={result} typed={typed} />}
@@ -296,7 +345,32 @@ export function Study({ extraNew, onExit }: { extraNew: number; onExit: () => vo
             </button>
           </div>
         )}
-        {!showBack && mode !== 'recall-type' && (
+        {!showBack && mode === 'choose' && !optionsShown && (
+          <button class="btn primary big" onClick={showOptions}>
+            Show options
+          </button>
+        )}
+        {!showBack && mode === 'choose' && optionsShown && (
+          <div class="choices-wrap">
+            <div class="choices">
+              {options.map((o, i) => (
+                <button key={o.id} class="choice" onClick={() => pick(o)}>
+                  <span class="choice-key">{i + 1}</span>
+                  {o.en}
+                </button>
+              ))}
+            </div>
+            <button class="link" onClick={() => pick(null)}>
+              I don't know
+            </button>
+          </div>
+        )}
+        {showBack && mode === 'choose' && (
+          <button class={`btn big continue ${pickedRight ? 'right' : 'wrong'}`} onClick={() => grade(choiceGrade())}>
+            Continue
+          </button>
+        )}
+        {!showBack && mode !== 'recall-type' && mode !== 'choose' && (
           <button class="btn primary big" onClick={() => setRevealed(true)}>
             Show answer
           </button>
@@ -313,7 +387,7 @@ export function Study({ extraNew, onExit }: { extraNew: number; onExit: () => vo
             </button>
           </div>
         )}
-        {showBack && mode !== 'intro' && (
+        {showBack && mode !== 'intro' && mode !== 'choose' && (
           <div class="grades">
             {GRADES.map((g) => (
               <button key={g} class={`grade ${GRADE_CLASS[g]} ${result && SUGGESTED[result] === g ? 'suggested' : ''}`} onClick={() => grade(g)}>
@@ -333,6 +407,11 @@ function Feedback({ result, typed }: { result: AnswerResult; typed: string }) {
   if (result === 'accents') return <div class="feedback warn">Almost — watch the diacritics (you wrote “{typed}”)</div>;
   if (result === 'typo') return <div class="feedback warn">Close — small typo (you wrote “{typed}”)</div>;
   return <div class="feedback bad">{typed.trim() ? `Not quite — you wrote “${typed}”` : 'Here’s the answer:'}</div>;
+}
+
+function ChoiceFeedback({ right, picked }: { right: boolean; picked: Word | null }) {
+  if (right) return <div class="feedback ok">✓ Correct!</div>;
+  return <div class="feedback bad">{picked ? `Not quite — you picked “${picked.en}”` : 'Here’s the answer:'}</div>;
 }
 
 function Summary({ stats, unlocked, onExit }: { stats: Stats; unlocked: string[]; onExit: () => void }) {
