@@ -5,6 +5,7 @@ import { initSpeech } from './lib/speech';
 import { reconcileStreak } from './lib/progress';
 import { checkAchievements } from './lib/achievements';
 import { sync } from './lib/sync';
+import { refreshReminders } from './lib/push';
 import { toast } from './lib/ui';
 import { Home } from './screens/Home';
 import { Study } from './screens/Study';
@@ -42,6 +43,7 @@ export function App() {
       initSpeech();
       // Pull changes from other devices, then re-check streak (remote days may fill gaps).
       if (await sync()) afterLoad();
+      refreshReminders();
     })();
     const onVisible = () => {
       if (document.visibilityState === 'hidden') sync();

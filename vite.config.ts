@@ -30,6 +30,8 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,png,json,woff2}'],
         navigateFallback: '/index.html',
         navigateFallbackDenylist: [/^\/api\//],
+        // Push notification handlers (public/push-sw.js).
+        importScripts: ['push-sw.js'],
       },
     }),
   ],

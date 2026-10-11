@@ -7,6 +7,7 @@ import { hasCroatianVoice, initSpeech, speak, voiceName } from '../lib/speech';
 import { WORD_BY_ID } from '../lib/words';
 import { getFlags } from './Words';
 import { toast } from '../lib/ui';
+import { disableReminders, enableReminders, getReminder, isIos, isStandalone, pushSupported, sendTestReminder, setReminderTime } from '../lib/push';
 
 function Toggle({ label, hint, value, onChange }: { label: string; hint?: string; value: boolean; onChange: (v: boolean) => void }) {
   return (
@@ -33,6 +34,74 @@ function Stepper({ label, value, options, onChange, unit }: { label: string; val
         ))}
       </div>
     </div>
+  );
+}
+
+function Reminders({ hasToken }: { hasToken: boolean }) {
+  const r = getReminder();
+  const [busy, setBusy] = useState(false);
+  const run = async (fn: () => Promise<void>, done?: [string, string]) => {
+    setBusy(true);
+    try {
+      await fn();
+      if (done) toast(done[0], done[1]);
+    } catch (e) {
+      toast('⚠️', 'Reminders', (e as Error).message);
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  let body;
+  if (!pushSupported())
+    body = (
+      <p class="muted small">
+        {isIos() && !isStandalone()
+          ? 'On iPhone, reminders only work in the installed app: tap Share → Add to Home Screen, then open Riječi from your Home Screen.'
+          : 'This browser doesn’t support notifications.'}
+      </p>
+    );
+  else if (!hasToken) body = <p class="muted small">Reminders are sent by your sync server, so connect sync below first.</p>;
+  else
+    body = (
+      <>
+        <Toggle
+          label="Daily reminder"
+          hint="Skipped on days you’ve already reached your goal."
+          value={r.enabled}
+          onChange={(v) => run(() => (v ? enableReminders() : disableReminders()), v ? ['🔔', 'Reminders on'] : undefined)}
+        />
+        {r.enabled && (
+          <>
+            <div class="setting">
+              <div>Remind me at</div>
+              <input
+                type="time"
+                class="time-input"
+                value={r.time}
+                disabled={busy}
+                onChange={(e) => {
+                  const t = (e.target as HTMLInputElement).value;
+                  if (t) run(() => setReminderTime(t));
+                }}
+              />
+            </div>
+            <div class="setting">
+              <div class="muted small">Check that notifications arrive on this device.</div>
+              <button class="btn" disabled={busy} onClick={() => run(sendTestReminder)}>
+                Send test
+              </button>
+            </div>
+          </>
+        )}
+      </>
+    );
+
+  return (
+    <section class="card">
+      <h3>Reminders</h3>
+      {body}
+    </section>
   );
 }
 
@@ -129,6 +198,8 @@ export function Settings() {
         <Toggle label="Type answers" hint="Type the Croatian word on English → Croatian cards. Off = flip and self-grade." value={s.typing} onChange={(v) => set({ typing: v })} />
         <Toggle label="Multiple choice" hint="Pick the meaning from 4 options while a word is still new to you." value={s.choice} onChange={(v) => set({ choice: v })} />
       </section>
+
+      <Reminders hasToken={!!syncState.token} />
 
       <section class="card">
         <h3>Audio</h3>

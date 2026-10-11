@@ -13,6 +13,8 @@ An installable PWA (works offline on iPhone) for learning Croatian vocabulary wi
   - Croatian → English. New words are introduced with both sides showing.
   - English → Croatian. This unlocks once you recognise a word reliably. You type the answer, with č ć đ š ž buttons. Missing diacritics and small typos are detected and get a gentler grade.
   - Listening drills: hear a word without seeing it (uses the iOS Croatian voice).
+  - Multiple choice: while a word is still being learned (and now and then in reviews), pick its meaning from 4 options. Grading is automatic.
+- **Daily reminders:** push notifications at a time you choose, skipped on days you've already reached your goal. They say how many words are due and mention your streak. On iPhone this needs iOS 16.4+ and the app opened from the Home Screen. A Worker cron trigger checks every 15 minutes. The push signing keys are generated on first use and kept in D1, so there's nothing to configure.
 - **Gamification:**
   - XP and levels.
   - A daily XP goal and streaks, with streak freezes (earn 1 per 7-day streak, hold up to 2).
@@ -47,7 +49,8 @@ The Worker's name in Cloudflare must match `"name"` in `wrangler.jsonc` (`learn-
 
 1. Open the Worker URL in **Safari**, tap **Share → Add to Home Screen**, then open the app from the home screen.
 2. Go to **Settings → Sync & backup**, enter your `SYNC_TOKEN` and tap **Connect**. The installed app has its own storage, separate from Safari, so do this inside the installed app.
-3. For audio, install the Croatian voice: iOS **Settings → Accessibility → Spoken Content → Voices → Croatian → Lana**.
+3. For audio, install the Croatian voice: iOS **Settings → Accessibility → Spoken Content → Voices → Croatian → Lana**. If you hear nothing, check the silent switch.
+4. For daily reminders, go to **Settings → Reminders** in the installed app, turn on **Daily reminder** and allow notifications.
 
 ## Development
 

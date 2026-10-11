@@ -25,14 +25,20 @@ interface SyncResponse {
   changes: { key: string; data: unknown; updatedAt: number }[];
 }
 
-async function call<T>(path: string, token: string, body?: unknown): Promise<T> {
+export async function call<T>(path: string, token: string, body?: unknown): Promise<T> {
   const res = await fetch(`/api/${path}`, {
     method: body === undefined ? 'GET' : 'POST',
     headers: { authorization: `Bearer ${token}`, 'content-type': 'application/json' },
     body: body === undefined ? undefined : JSON.stringify(body),
   });
   if (res.status === 401) throw new Error('Sync token rejected');
-  if (!res.ok) throw new Error(`Server error ${res.status}`);
+  if (!res.ok) {
+    const msg = await res
+      .json()
+      .then((b: { error?: string }) => b.error)
+      .catch(() => null);
+    throw new Error(msg ?? `Server error ${res.status}`);
+  }
   return res.json() as Promise<T>;
 }
 
